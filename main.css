@@ -148,7 +148,7 @@ div.vc_row.container {
 }
 
 .pix-title-style > a {
-	color: #1a1a1a !g
+	color: #1a1a1a !important;
 	font-weight: 600 !important;
 	font-size: 14px !important;
 	text-transform: uppercase;
@@ -168,15 +168,12 @@ mark {
 }
 
 .skroller {
-	position: static;nu
+	position: static;
 }
 .header.hover{
 	color: #58a540;
 }
 .header.active{
-	color: #58a540;
-}
-.header.#{
 	color: #58a540;
 }
 
@@ -263,7 +260,6 @@ body.composer-frame {
 	margin-right: auto;
 	padding-left: 0;
 	padding-right: 0;
-	-webkit-backface-visibility: hidden;
 }
 
 .compose-mode .owl-carousel {
@@ -531,16 +527,16 @@ body.composer-frame {
 
 
 .green_menu:active {
-	color: #58a540;!important;
+	color: #58a540!important;
 	outline: none;
 	text-decoration: none;
 }
 
 .green_menu:focus {
-	color: #58a540;!important;
+	color: #58a540!important;
 }
 .green_menu:hover {
-	color: #58a540;!important;
+	color: #58a540!important;
 	outline: none;
 	text-decoration: none;
 
@@ -595,16 +591,6 @@ a:focus, a:active {
 	outline: none;
 	text-decoration: none;
 	color: #58a540;
-}
-#:hover{
-	color:#58a540;
-}
-
-#:focus{
-	color:#58a540;
-}
-#:active{
-	color:#58a540;
 }
 
 ul, ol {
@@ -811,9 +797,6 @@ img {
 
 .blog .normal .sticky .icon-box {left: 20px; top: 10px;}
 
-.gallery-caption {}
-
-.bypostauthor {}
 
 /* emphasis */
 .emphasis {
@@ -1280,7 +1263,6 @@ ul.list {
 	font-size: 16px;
 	line-height: 26px;
 	margin-right: 5px;
-	float: left;
 }
 
 /*Back to Top*/
@@ -2514,7 +2496,6 @@ ul.list {
 	-moz-transition: all ease 0.3s;
 	-o-transition: all ease 0.3s;
 	transition: all ease 0.3s;
-	float: left;
 }
 #inner-header .social-icons {
 	margin: 28px 0;
@@ -2758,7 +2739,6 @@ ul.list {
 	padding: 6px 15px;
 	display: none;
 	margin-left: -10px;
-	-webkit-backface-visibility: hidden;
 }
 
 #lang-list .lang-dropdown-inner a, #lang-list.lang_name .lang-dropdown-inner a:last-child {
@@ -2993,7 +2973,6 @@ p.sub-title + .wpb_row.vc_row-fluid {
 	line-height: 35px; 
 	border: 1px solid #00a9d1;
 	display: inline-block;
-	float: left;
 	margin-right: -22px;
 	margin-top: -5px;
 }
@@ -3858,7 +3837,6 @@ p.sub-title + .wpb_row.vc_row-fluid {
 	z-index: 999;
 	background: #fff;
 	height: 60px;
-	-webkit-backface-visibility: hidden;
 }
 
 .header-con.stuck .pix-header-small {
@@ -4240,7 +4218,6 @@ a.close:after {
 	font-size: 14px;
 	margin-bottom: 0;
 	text-transform: uppercase;
-	-webkit-backface-visibility: hidden;
 }
 
 .main-nav li .menu-icon:before {
@@ -4273,7 +4250,6 @@ a.close:after {
 	background: #fff;
 	font-family: "Montserrat", Arial, sans-serif;
 	font-weight: normal;
-	-webkit-backface-visibility: hidden;
 	-webkit-transition: all ease-in-out .3s; 
 	-moz-transition: all ease-in-out .3s;
 	-ms-transition: all ease-in-out .3s;
@@ -5461,7 +5437,6 @@ ul.breadcrumb li, .breadcrumb li a {
 	line-height: inherit !important;
 	overflow: hidden;
 	position: relative;
-	-webkit-backface-visibility: hidden;
 }
 
 .btn:focus, .btn:active {
@@ -6155,7 +6130,6 @@ p.title {
 
 .text:before {
 	content: '';
-	speak: none;
 	font-size: 48px;
 	line-height: 90px;
 	font-style: normal;
@@ -7078,9 +7052,6 @@ p.title {
 	content: "";
 	width: 6px;
 	height: 12px;
-	-webkit-transform: skew(37deg);
-	-moz-transform: skew(37deg);
-	-o-transform: skew(37deg);
 	background: #fff;
 	display: block;
 	position: absolute;
@@ -7157,7 +7128,6 @@ p.title {
 	-moz-text-fill-color: transparent;
 	-ms-text-fill-color: transparent;
 	-o-text-fill-color: transparent;
-	text-fill-color: transparent;
 	display: inline-block;
 }
 
@@ -11658,7 +11628,6 @@ body.single-post .pix-recent-blog-posts.row.col1 {
 	color: #a5a5a5;
 	font-size: 12px !important;
 	font-weight: normal !important;
-	float: left;
 	text-transform: uppercase;
 	line-height: 2;
 }
@@ -11770,7 +11739,6 @@ body.search.search-no-results #main-wrapper {
 	margin: 5px 0 10px;
 	display: inline-block;
 	font-size: 12px;
-	float: right;
 }
 
 .comment-list a {
@@ -11982,7 +11950,6 @@ h3#comments-title {
 	z-index: 1043;
 	position: fixed;
 	outline: none !important;
-	-webkit-backface-visibility: hidden; 
 }
 
 .mfp-container {
@@ -12163,8 +12130,6 @@ button::-moz-focus-inner {
 	-webkit-tap-highlight-color: transparent;
 }
 
-.mfp-arrow:active {
-}
 
 .mfp-arrow:hover, .mfp-arrow:focus {
 	opacity: 1;
@@ -12201,14 +12166,9 @@ button::-moz-focus-inner {
 	margin-left: 31px;
 }
 
-.mfp-arrow-left:before {}
-
 .mfp-arrow-right {
 	right: 20px;
 	left: auto;
-}
-
-.mfp-arrow-right:after {
 }
 
 .mfp-arrow-right:before {
@@ -12317,7 +12277,6 @@ img.mfp-img {
 }
 
 .mfp-container, .mfp-bg {
-	-webkit-backface-visibility: hidden;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
@@ -12821,7 +12780,7 @@ img.mfp-img {
 	height: 120px;
 }
 
-.widget ..orderform p {
+.widget .orderform p {
 	font-size: 13px;
 }
 
@@ -13113,11 +13072,6 @@ footer.footer-dark .widget li:after {
 	color: #a5a5a5;
 }
 
-.pageFooterCon .widget:last-child {
-}
-
-.amz-custom-footer-layout #pageFooter .widget {
-}
 
 .amz-custom-footer-layout #pageFooter .widget:last-child {
 	margin-bottom: 0;
@@ -13478,10 +13432,10 @@ span.orderform-not-valid-tip {
 .orderform input:input-placeholder, .orderform textarea:input-placeholder { color: #777 }
 
 .light .orderform input::-webkit-input-placeholder, .light .orderform textarea::-webkit-input-placeholder { color: #fff }
-.light .wpcf7 input:-moz-placeholder, .light .orderform textarea:-moz-placeholder { color: #fff }
-.light .wpcf7 input::-moz-placeholder, .light .orderform textarea::-moz-placeholder { color: #fff }
-.light .wpcf7 input:-ms-input-placeholder, .light .orderform textarea:-ms-input-placeholder { color: #fff }
-.light .wpcf7 input:input-placeholder, .light .orderform textarea:input-placeholder { color: #fff }
+.light .orderform input:-moz-placeholder, .light .orderform textarea:-moz-placeholder { color: #fff }
+.light .orderforminput::-moz-placeholder, .light .orderform textarea::-moz-placeholder { color: #fff }
+.light .orderform input:-ms-input-placeholder, .light .orderform textarea:-ms-input-placeholder { color: #fff }
+.light .orderform input:input-placeholder, .light .orderform textarea:input-placeholder { color: #fff }
 
 span.form-control-wrap {
 	max-width: 300px;
@@ -13597,7 +13551,7 @@ div.orderform-validation-errors {
 	text-align: center;
 }
 
-.smart-form-1.round-corner .smart-btn1 .wpcf7-submit {
+.smart-form-1.round-corner .smart-btn1 .orderforn-submit {
 	display: inline-block;
 	width: auto;
 	padding: 10px 35px;
@@ -13656,7 +13610,7 @@ div.orderform-validation-errors {
 	color: #1a1a1a;
 }
 
-.smart-form-3 .wpcf7-form-control-wrap, .smart-form-3 .wpcf7-text {
+.smart-form-3 .form-control-wrap, .smart-form-3 -text {
 	width: 100%;
 	max-width: 100%;
 }
@@ -13673,7 +13627,7 @@ div.orderform-validation-errors {
 	font-size: 16px;
 }
 
-.smart-form-3 .wpcf7-text {
+.smart-form-3 -text {
 	padding-left: 50px;
 	color: #1a1a1a;
 	height: 50px;
@@ -13764,7 +13718,7 @@ div.orderform-validation-errors {
 }
 
 /* Smart Form 4 & soyyo-form smart-form-4 */
-.soyyo-form.smart-form-4 -text, .soyyo-form.smart-form-4 -date, .soyyo-form.smart-form-4  select, .soyyo-form.smart-form-4  .wpcf7-textarea {
+.soyyo-form.smart-form-4 -text, .soyyo-form.smart-form-4 -date, .soyyo-form.smart-form-4  select, .soyyo-form.smart-form-4  .orderform-textarea {
 	border-width: 2px;
 	border-color: red;
 }
@@ -13923,7 +13877,7 @@ div.orderform-validation-errors {
 	margin-bottom: 20px;
 }
 
-.smart-form-7.smart-form-8 .wpcf7-form-control-wrap input, .smart-form-7.smart-form-8 .wpcf7-form-control-wrap .wpcf7-textarea {
+.smart-form-7.smart-form-8 .form-control-wrap input, .smart-form-7.smart-form-8 .form-control-wrap -textarea {
 	border-radius: 0;
 	border: 0;
 	box-shadow: inset 0px -3px 0px 0px #f4f4f4;
@@ -13933,21 +13887,21 @@ div.orderform-validation-errors {
 	transition: all ease 0.5s;color: #fff;
 }
 
-.smart-form-7.smart-form-8 .wpcf7-form-control-wrap input:focus, .smart-form-7.smart-form-8 .wpcf7-form-control-wrap .wpcf7-textarea:focus {
+.smart-form-7.smart-form-8 form-control-wrap input:focus, .smart-form-7.smart-form-8 form-control-wrap textarea:focus {
 	padding-left: 20px;
 	box-shadow: inset 0px -2px 0px 0px #f4f4f4;
 }
 
-.smart-form-8 .wpcf7-form-control.wpcf7-submit.btn {
+.smart-form-8 form-control.orderform-submit.btn {
 	margin-top: 20px;
 	width: 35%;
 }
 
-.smart-form-7.smart-form-10 .wpcf7-form-control-wrap input {
+.smart-form-7.smart-form-10 .form-control-wrap input {
 	height: 40px;
 }
 
-.smart-form-7.smart-form-10 .wpcf7-form-control-wrap .wpcf7-textarea, .smart-form-7.smart-form-10 .wpcf7-form-control-wrap input {
+.smart-form-7.smart-form-10 .form-control-wrap .textarea, .smart-form-7.smart-form-10 .form-control-wrap input {
 	font-size: 12px;
 	box-shadow: inset 0px 0px 2px 1px #000;
 	border: 1px solid #000;
@@ -13956,55 +13910,55 @@ div.orderform-validation-errors {
 	color: #fff;
 }
 
-.smart-form-7.smart-form-10 .wpcf7-form-control.wpcf7-submit.btn {
+.smart-form-7.smart-form-10 .orderform-form-control.orderform-submit.btn {
 	margin-top: 25px;
 	border-radius: 50px;
 	width: 25%;
 }
 
-.light .smart-form-7.smart-form-10 .wpcf7-form-control-wrap .wpcf7-textarea, .light .smart-form-7.smart-form-10 .wpcf7-form-control-wrap input {
+.light .smart-form-7.smart-form-10 .orderform-form-control-wrap .orderform-textarea, .light .smart-form-7.smart-form-10 .orderform-form-control-wrap input {
 	background: #c1c1c1;
 	border: 1px solid #c1c1c1;
 	box-shadow: inset 0px 0px 2px 1px #c1c1c1;
 	color: #fff;
 }
 
-.smart-form-7.smart-form-9 .wpcf7-form-control-wrap input {
+.smart-form-7.smart-form-9 .orderform-form-control-wrap input {
 	border-color: #e3e3e3;
 	background: #fff;
 	border-radius: 3px;
 	margin-bottom: 10px;
 }
 
-.smart-form-7.smart-form-9 .wpcf7-form-control.wpcf7-submit.btn {
+.smart-form-7.smart-form-9 .orderform-form-control.orderform-submit.btn {
 	width: 100%;
 	margin-top: 20px;
 	border-radius: 3px;
 }
 
-.light .smart-form-7.smart-form-9 .wpcf7-form-control-wrap input {
+.light .smart-form-7.smart-form-9 .orderform-form-control-wrap input {
 	color: #444;
 	box-shadow: inset 0px 0px 0px 1px #e3e3e3;
 }
 
-.light .smart-form-7.smart-form-9 .wpcf7-form-control-wrap input::-webkit-input-placeholder { color: #444 }
-.light .smart-form-7.smart-form-9 .wpcf7-form-control-wrap input:-moz-placeholder { color: #444 }
-.light .smart-form-7.smart-form-9 .wpcf7-form-control-wrap input::-moz-placeholder { color: #444 }
-.light .smart-form-7.smart-form-9 .wpcf7-form-control-wrap input:-ms-input-placeholder { color: #444 }
-.light .smart-form-7.smart-form-9 .wpcf7-form-control-wrap input:input-placeholder { color: #444 }
+.light .smart-form-7.smart-form-9 .form-control-wrap input::-webkit-input-placeholder { color: #444 }
+.light .smart-form-7.smart-form-9 .form-control-wrap input:-moz-placeholder { color: #444 }
+.light .smart-form-7.smart-form-9 .form-control-wrap input::-moz-placeholder { color: #444 }
+.light .smart-form-7.smart-form-9 .form-control-wrap input:-ms-input-placeholder { color: #444 }
+.light .smart-form-7.smart-form-9 .form-control-wrap input:input-placeholder { color: #444 }
 
 /* Modern Contact Form */
-.wpcf7 .modern-contact-form p {
+.orderform .modern-contact-form p {
 	margin-bottom: 50px;
 }
 
-.modern-contact-form .wpcf7-text, .modern-contact-form .wpcf7-number, .modern-contact-form .wpcf7-date, .modern-contact-form .wpcf7-select, .modern-contact-form .wpcf7-quiz, .modern-contact-form .wpcf7-captchar {
+.modern-contact-form .orderform-text, .modern-contact-form .orderform-number, .modern-contact-form .orderform-date, .modern-contact-form .orderform-select, .modern-contact-form .orderform-quiz, .modern-contact-form .orderform-captchar {
 	border: none;
 	border-bottom: 2px solid;
 	max-width: 100%;
 }
 
-.modern-contact-form .wpcf7-textarea {
+.modern-contact-form .orderform-textarea {
 	border: none;
 	border-bottom: 2px solid;
 	border-left: 2px solid;
@@ -14019,18 +13973,18 @@ div.orderform-validation-errors {
 	margin: 0 auto;
 }
 
-.wpcf7 .modern-contact-form2 p {
+.orderform .modern-contact-form2 p {
 	margin-bottom: 40px;
 }
 
-.modern-contact-form2 .wpcf7-text, .modern-contact-form2 .wpcf7-number, .modern-contact-form2 .wpcf7-date, .modern-contact-form2 .wpcf7-select, .modern-contact-form2 .wpcf7-quiz, .modern-contact-form2 .wpcf7-captchar {
+.modern-contact-form2 .orderform--text, .modern-contact-form2 .orderform--number, .modern-contact-form2 .orderform--date, .modern-contact-form2 .orderform-select, .modern-contact-form2 .orderform--quiz, .modern-contact-form2 .wpcf7-captchar {
 	border: none;
 	border-bottom: 2px solid #e4e4e4;
 	color: #777;
 	max-width: 100%;
 }
 
-.modern-contact-form2 .wpcf7-textarea {
+.modern-contact-form2 .orderform--textarea {
 	border: none;
 	border-bottom: 2px solid #e4e4e4;
 	color: #777;
@@ -14040,7 +13994,7 @@ div.orderform-validation-errors {
 	margin-bottom: 50px !important;
 }
 
-.wpcf7 .modern-contact-form2 p.center-align {
+.orderform .modern-contact-form2 p.center-align {
 	text-align: center;
 }
 
@@ -14054,7 +14008,7 @@ div.orderform-validation-errors {
 	float: right;
 }
 
-.contact-default input, .contact-default .wpcf7-textarea {
+.contact-default input, .contact-default .orderform-textarea {
 	width: 100%;
 	max-width: 100%;
 	margin-top: 0;
@@ -14062,17 +14016,17 @@ div.orderform-validation-errors {
 	border-bottom: 1px solid #e8e8e8;
 }
 
-.contact-default .wpcf7-textarea {
+.contact-default .orderform-textarea {
 	min-height: 130px;
 	height: 130px;
 }
 
-.contact-default .wpcf7-submit {
+.contact-default .orderform-submit {
 	width: auto;
 	padding: 10px 40px;
 }
 
-.wpcf7 .contact-default input[type="file"] {
+.orderform .contact-default input[type="file"] {
 	border-bottom: none;
 }
 
@@ -14241,19 +14195,19 @@ div.tp-rightarrow.tparrows.default:after {
 	color: #fff;
 }
 
-.light .contactForm label, .light .wpcf7 label {
+.light .contactForm label, .light .orderform label {
 	color: #fff;
 }
 
-.light .contactform .textfield, .light .wpcf7-text, .light .wpcf7-number, .light .wpcf7-date, .light .wpcf7-select, .light .wpcf7-quiz, .light .wpcf7-captchar {
+.light .contactform .textfield, .light .orderform-text, .light .orderform-number, .light .orderform-date, .light .orderform-select, .light .orderform-quiz, .light .wpcf7-captchar {
 	color: #fff;
 }
 
-.light .wpcf7-select option {
+.light .orderform-select option {
 	color: #444;
 }
 
-.light .contactform .message, .light .wpcf7-textarea {
+.light .contactform .message, .light .orderform-textarea {
 	background: none;
 	color: #fff;
 }
@@ -14986,17 +14940,17 @@ a, .color, .base-color, .icon-list .pix-icon.color, .top-details a:hover, #lang-
 	bottom: 0px;
 }
 
-.bg_text, .line, .pix-icons .icon.solid, .pageTop .pix-item-icon, .main-nav li.pix-megamenu > ul.sub-menu:before, .btn.btn-hover-solid.color:hover, .btn.btn-solid.color, .pix_icon_box .color .hover-gradient:before, .no-touch .process .text:hover:after, .process .background .text:after, .pix_accordion.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header.ui-accordion-header-active.ui-state-active, .pix_accordion.background.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab, .pix_accordion.background.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content, .pix_tabs.style2.wpb_content_element.tabs-left .wpb_tabs_nav li.ui-tabs-active a:after, .pix_tabs.style2.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a:after, .pix_tabs.style3.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a, .style3 .border-bg, .staff-content .line, .pix-staffs .style5:hover, .full-width-icon.style2 .social-icons a, #filters.normal li a.selected, #filters.normal.simple li a.selected, #filters.normal.simple li a:hover, .sorter .top-active, .single-port-like:hover, .single-port-like.liked, .single-port-nav a:hover, .single-portfolio-details .portfolio-icons:hover .share-top, .price-table.bestPlan .price-header, .price-table.style2.bestPlan .value, .testimonial.style3 .testimonial-author .pix-author-name, .testimonial.style6 .testimonial-author .pix-author-name, .blog-container .author-name, .post .icon-box, .blog .timeline .entry-content.pix-blog-link .icon-box, .blog .timeline a .entry-content.pix-blog-link:hover, .blog .masonry a .entry-content.pix-blog-link:hover, .blog .masonry .post .bg, .subNavigation .current-menu-item:after, .subNavigation.top .current-menu-item:after, .widget .tagcloud a, #pageFooterCon .widget.widget_shopping_cart .button.wc-forward:hover, .wpcf7-submit, .vc_progress_bar.pix-progress-bar .vc_single_bar .vc_bar, .testimonial.style6 .content, .blog .masonry .owl-theme .owl-controls .owl-nav div, .blog .masonry .entry-content.pix-blog-link .bg, .masonry .entry-content.pix-blog-quote .bg, .blog .masonry .entry-content.pix-blog-quote .bg, .pagination li.active, .comment-form .form-submit #submit:hover, #wp-calendar #today, .line.line-2:after, .menu-header1 #inner-header .pix-item-icon, .menu-header2 #inner-header .pix-item-icon, .menu-header3 #inner-header .pix-item-icon, .pix-cart .widget_shopping_cart_content .button, .woocommerce-result-count, .woo-product-item .staff-content .line, .onsale, .woo-product-item .price, .widget_shopping_cart_content .button.wc-forward:hover, .ui-slider-range, .ui-slider-handle, .shop_table .product-remove a, .button:hover, .shop_table .button.checkout-button:hover, .woocommerce-tabs ul.tabs li.active a:after, .owl-theme .owl-controls .owl-nav div:hover, .flex-control-nav.flex-control-paging li a.flex-active, .flex-control-nav.flex-control-paging li a:hover, .testimonials.owl-theme .owl-controls .owl-nav div:hover, .tweets.owl-theme .owl-controls .owl-nav div:hover, .open-playlist, div.tp-leftarrow.tparrows.default, div.tp-rightarrow.tparrows.default, .mejs-audio .mejs-controls .mejs-time-rail .mejs-time-current, .mejs-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, .mejs-video .mejs-controls .mejs-time-rail .mejs-time-current, .mejs-video .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current, .pix-weather-wrap, .pix-item-icon, .wpb_images_carousel .vc_images_carousel .vc_carousel-indicators .vc_active, .wpb_images_carousel .vc_images_carousel.vc_carousel_vertical .vc_carousel-indicators li.vc_active, .btn.btn-hover-solid.btn-hover-color:hover, .dot, .port-bg-color .portfolio-container.portfolio-style4, .background-nav .main-nav .menu > li.current-menu-ancestor > a, .background-nav .main-nav .menu > li:hover > a, .background-nav.background-nav-round .main-nav .menu > li.current-menu-ancestor > a, .background-nav .main-nav .menu > li.current-menu-item > a, .background-nav.background-nav-round .main-nav .menu > li.current-menu-item > a, .solid-color-bg .main-nav li.current-menu-item, .solid-color-bg .main-nav li.current-menu-ancestor, .owl-dot.active span, .subscribe-widget .subcribe-button .btn, .single-blog-style3 .category a, .sub-navigation .current-menu-item > a {
+.bg_text, .line, .pix-icons .icon.solid, .pageTop .pix-item-icon, .main-nav li.pix-megamenu > ul.sub-menu:before, .btn.btn-hover-solid.color:hover, .btn.btn-solid.color, .pix_icon_box .color .hover-gradient:before, .no-touch .process .text:hover:after, .process .background .text:after, .pix_accordion.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header.ui-accordion-header-active.ui-state-active, .pix_accordion.background.wpb_content_element .wpb_tour_tabs_wrapper .wpb_tab, .pix_accordion.background.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_content, .pix_tabs.style2.wpb_content_element.tabs-left .wpb_tabs_nav li.ui-tabs-active a:after, .pix_tabs.style2.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a:after, .pix_tabs.style3.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a, .style3 .border-bg, .staff-content .line, .pix-staffs .style5:hover, .full-width-icon.style2 .social-icons a, #filters.normal li a.selected, #filters.normal.simple li a.selected, #filters.normal.simple li a:hover, .sorter .top-active, .single-port-like:hover, .single-port-like.liked, .single-port-nav a:hover, .single-portfolio-details .portfolio-icons:hover .share-top, .price-table.bestPlan .price-header, .price-table.style2.bestPlan .value, .testimonial.style3 .testimonial-author .pix-author-name, .testimonial.style6 .testimonial-author .pix-author-name, .blog-container .author-name, .post .icon-box, .blog .timeline .entry-content.pix-blog-link .icon-box, .blog .timeline a .entry-content.pix-blog-link:hover, .blog .masonry a .entry-content.pix-blog-link:hover, .blog .masonry .post .bg, .subNavigation .current-menu-item:after, .subNavigation.top .current-menu-item:after, .widget .tagcloud a, #pageFooterCon .widget.widget_shopping_cart .button.wc-forward:hover, .orderform-submit, .vc_progress_bar.pix-progress-bar .vc_single_bar .vc_bar, .testimonial.style6 .content, .blog .masonry .owl-theme .owl-controls .owl-nav div, .blog .masonry .entry-content.pix-blog-link .bg, .masonry .entry-content.pix-blog-quote .bg, .blog .masonry .entry-content.pix-blog-quote .bg, .pagination li.active, .comment-form .form-submit #submit:hover, #wp-calendar #today, .line.line-2:after, .menu-header1 #inner-header .pix-item-icon, .menu-header2 #inner-header .pix-item-icon, .menu-header3 #inner-header .pix-item-icon, .pix-cart .widget_shopping_cart_content .button, .woocommerce-result-count, .woo-product-item .staff-content .line, .onsale, .woo-product-item .price, .widget_shopping_cart_content .button.wc-forward:hover, .ui-slider-range, .ui-slider-handle, .shop_table .product-remove a, .button:hover, .shop_table .button.checkout-button:hover, .woocommerce-tabs ul.tabs li.active a:after, .owl-theme .owl-controls .owl-nav div:hover, .flex-control-nav.flex-control-paging li a.flex-active, .flex-control-nav.flex-control-paging li a:hover, .testimonials.owl-theme .owl-controls .owl-nav div:hover, .tweets.owl-theme .owl-controls .owl-nav div:hover, .open-playlist, div.tp-leftarrow.tparrows.default, div.tp-rightarrow.tparrows.default, .mejs-audio .mejs-controls .mejs-time-rail .mejs-time-current, .mejs-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, .mejs-video .mejs-controls .mejs-time-rail .mejs-time-current, .mejs-video .mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current, .pix-weather-wrap, .pix-item-icon, .wpb_images_carousel .vc_images_carousel .vc_carousel-indicators .vc_active, .wpb_images_carousel .vc_images_carousel.vc_carousel_vertical .vc_carousel-indicators li.vc_active, .btn.btn-hover-solid.btn-hover-color:hover, .dot, .port-bg-color .portfolio-container.portfolio-style4, .background-nav .main-nav .menu > li.current-menu-ancestor > a, .background-nav .main-nav .menu > li:hover > a, .background-nav.background-nav-round .main-nav .menu > li.current-menu-ancestor > a, .background-nav .main-nav .menu > li.current-menu-item > a, .background-nav.background-nav-round .main-nav .menu > li.current-menu-item > a, .solid-color-bg .main-nav li.current-menu-item, .solid-color-bg .main-nav li.current-menu-ancestor, .owl-dot.active span, .subscribe-widget .subcribe-button .btn, .single-blog-style3 .category a, .sub-navigation .current-menu-item > a {
 	background: #54a54c;
 	color: #fff;
 }
 
-blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix_icon_box:hover .double-circle, .pix_icon_box:hover .double-circle:after, .btn.btn-solid.color:hover, .pix_icon_box:hover .small-circle, .pix_icon_box:hover .double-square:before, .pix_icon_box:hover .double-square:after, .pix_icon_box:hover .square-front:before, .pix_icon_box:hover .square-front:after, .pix_accordion.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header.ui-accordion-header-active.ui-state-active, .pix_tabs.style3.wpb_content_element .wpb_tabs_nav li.ui-tabs-active, .price-table.bestPlan, .pix-icons .icon.outline, .btn.color:hover, .btn.btn-outline.color, .btn.btn-outline.color:hover, .btn.btn-solid.color, .icon100.circle.color, .square.color:after, .icon100.double-circle.color, .icon100.double-circle.color:after, .double-square.color:after, .double-square.color:before, .square-front.color:before, .square-front.color:after, .full-width-icon.style3 .social-icons a, #filters.normal li a.selected, #filters.normal.simple li a.selected, #filters.normal.simple li a:hover, .single-port-nav a:hover, .single-portfolio-details .share-top, .blog .timeline .entry-content.pix-blog-link, .blog .masonry .entry-content.pix-blog-link, .comment-form .form-submit #submit, .tweets.center.style2 .tweet-icon, .tweets.center.style3 .tweet-icon, #pageFooterCon .widget.widget_shopping_cart .button.wc-forward:hover, .wpcf7-submit, .pix-chart.style3.style7 .border-top, .style3.style7 .border-bg, .pix-chart.style3.style8 .border-top, .blog .timeline a .entry-content.pix-blog-link:hover .icon-box, .blog .masonry a .entry-content.pix-blog-link:hover .round, .box-small:before, .woo-products .staff-img-con:hover .price, .woo-product-item .btn.btn-outline.color:hover, .widget_shopping_cart_content .button, .widget_shopping_cart_content .button.wc-forward:hover, .button:hover, .shop_table .button.checkout-button, .shop_table .button.checkout-button:hover, .summary .price, .summary .single_add_to_cart_button, .cart-collaterals .order-total, .checkout .shop_table tfoot .order-total, .counter.border, .pix-recent-blog-posts .blog-icon, .blog .normal .icon-box, .single-blog .icon-box, .flex-control-nav.flex-control-paging li a, .testimonials.owl-theme .owl-controls .owl-nav div:hover, .tweets.owl-theme .owl-controls .owl-nav div:hover, .tweets.style2 .tweet-icon, .tweets.style3 .tweet-icon, .single-dot-nav a:after, blockquote:before, blockquote:after, blockquote.pull-right:before, blockquote.pull-right:after, .wpb_images_carousel .vc_images_carousel .vc_carousel-indicators .vc_active, .wpb_images_carousel .vc_images_carousel.vc_carousel_vertical .vc_carousel-indicators li.vc_active, .btn.btn-hover-outline.btn-hover-color:hover, .btn.btn-hover-solid.btn-hover-color:hover, .drive-nav .main-nav .menu > li.current-menu-ancestor:before, .drive-nav .main-nav .menu > li.current-menu-item:before, .nav-double-border .main-nav > ul.menu > li.current-menu-ancestor > a, .nav-double-border .main-nav > ul.menu > li.current-menu-item > a, .button, input[type="submit"], .smart-form-1 input:focus, .smart-form-1 textarea:focus, .smart-form-1.smart-form-2 input:focus, .smart-form-1.smart-form-2 textarea:focus, .subscribe-widget .subcribe-button .btn {
+blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix_icon_box:hover .double-circle, .pix_icon_box:hover .double-circle:after, .btn.btn-solid.color:hover, .pix_icon_box:hover .small-circle, .pix_icon_box:hover .double-square:before, .pix_icon_box:hover .double-square:after, .pix_icon_box:hover .square-front:before, .pix_icon_box:hover .square-front:after, .pix_accordion.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header.ui-accordion-header-active.ui-state-active, .pix_tabs.style3.wpb_content_element .wpb_tabs_nav li.ui-tabs-active, .price-table.bestPlan, .pix-icons .icon.outline, .btn.color:hover, .btn.btn-outline.color, .btn.btn-outline.color:hover, .btn.btn-solid.color, .icon100.circle.color, .square.color:after, .icon100.double-circle.color, .icon100.double-circle.color:after, .double-square.color:after, .double-square.color:before, .square-front.color:before, .square-front.color:after, .full-width-icon.style3 .social-icons a, #filters.normal li a.selected, #filters.normal.simple li a.selected, #filters.normal.simple li a:hover, .single-port-nav a:hover, .single-portfolio-details .share-top, .blog .timeline .entry-content.pix-blog-link, .blog .masonry .entry-content.pix-blog-link, .comment-form .form-submit #submit, .tweets.center.style2 .tweet-icon, .tweets.center.style3 .tweet-icon, #pageFooterCon .widget.widget_shopping_cart .button.wc-forward:hover, .orderform-submit, .pix-chart.style3.style7 .border-top, .style3.style7 .border-bg, .pix-chart.style3.style8 .border-top, .blog .timeline a .entry-content.pix-blog-link:hover .icon-box, .blog .masonry a .entry-content.pix-blog-link:hover .round, .box-small:before, .woo-products .staff-img-con:hover .price, .woo-product-item .btn.btn-outline.color:hover, .widget_shopping_cart_content .button, .widget_shopping_cart_content .button.wc-forward:hover, .button:hover, .shop_table .button.checkout-button, .shop_table .button.checkout-button:hover, .summary .price, .summary .single_add_to_cart_button, .cart-collaterals .order-total, .checkout .shop_table tfoot .order-total, .counter.border, .pix-recent-blog-posts .blog-icon, .blog .normal .icon-box, .single-blog .icon-box, .flex-control-nav.flex-control-paging li a, .testimonials.owl-theme .owl-controls .owl-nav div:hover, .tweets.owl-theme .owl-controls .owl-nav div:hover, .tweets.style2 .tweet-icon, .tweets.style3 .tweet-icon, .single-dot-nav a:after, blockquote:before, blockquote:after, blockquote.pull-right:before, blockquote.pull-right:after, .wpb_images_carousel .vc_images_carousel .vc_carousel-indicators .vc_active, .wpb_images_carousel .vc_images_carousel.vc_carousel_vertical .vc_carousel-indicators li.vc_active, .btn.btn-hover-outline.btn-hover-color:hover, .btn.btn-hover-solid.btn-hover-color:hover, .drive-nav .main-nav .menu > li.current-menu-ancestor:before, .drive-nav .main-nav .menu > li.current-menu-item:before, .nav-double-border .main-nav > ul.menu > li.current-menu-ancestor > a, .nav-double-border .main-nav > ul.menu > li.current-menu-item > a, .button, input[type="submit"], .smart-form-1 input:focus, .smart-form-1 textarea:focus, .smart-form-1.smart-form-2 input:focus, .smart-form-1.smart-form-2 textarea:focus, .subscribe-widget .subcribe-button .btn {
 	border-color: #54a54c;
 	bottom:0px;
 }
 
-.bg_text:after, .pix_tabs.style3.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a:before, .testimonial.style3 .testimonial-author .pix-author-name:after, .testimonial.style6 .testimonial-author .pix-author-name:after, .testimonial.style6 .content:after, .on?:after {
+.bg_text:after, .pix_tabs.style3.wpb_content_element .wpb_tabs_nav li.ui-tabs-active a:before, .testimonial.style3 .testimonial-author .pix-author-name:after, .testimonial.style6 .testimonial-author .pix-author-name:after, .testimonial.style6 .content:after, .on:after {
 	border-top-color: #54a54c;
 }
 
@@ -15692,7 +15646,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	border-color: #26a6ed;
 }
 
-.subscribe-widget + div.wpcf7-mail-sent-ok {
+.subscribe-widget + div.orderform-mail-sent-ok {
 	clear: both;
 	border: none;
 	margin-top: 20px;
@@ -15700,18 +15654,18 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	width: 100%;
 }
 
-.subscribe-widget span.wpcf7-not-valid-tip {
+.subscribe-widget span.orderform-not-valid-tip {
 	float: left;
 	width: 100%;
 	margin-top: 10px;
 	padding: 0 30px;
 }
 
-.subscribe-widget + div.wpcf7-validation-errors {
+.subscribe-widget + div.orderform-validation-errors {
 	border: none;
 }
 
-.wpcf7 .subscribe-widget .subcribe-button img.ajax-loader {
+.orderform .subscribe-widget .subcribe-button img.ajax-loader {
 	clear: both;
 	float: right;
 	margin-right: 60px;
@@ -15789,11 +15743,11 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	border-radius: 3px;
 }
 
-.subscribe-style2.subscribe-style3.no-background .wpcf7-text, .subscribe-style2.subscribe-style5.no-background .wpcf7-text {
+.subscribe-style2.subscribe-style3.no-background .orderform-text, .subscribe-style2.subscribe-style5.no-background .orderform.orderform-text {
 	background: transparent;
 }
 
-.subscribe-style2.subscribe-style5.no-background .wpcf7-text {
+.subscribe-style2.subscribe-style5.no-background .orderform-text {
 	border-radius: 3px;
 }
 
@@ -15802,19 +15756,19 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	border-radius: 0;
 }
 
-.subscribe-style2.subscribe-style4.subscribe-style6 .wpcf7-form-control-wrap {
+.subscribe-style2.subscribe-style4.subscribe-style6 .orderform-form-control-wrap {
 	float: left;
 	margin-right: 15px;
 	width: auto;
 	max-width: initial;
 }
 
-.subscribe-style2.subscribe-style4.subscribe-style6 .wpcf7-text {
+.subscribe-style2.subscribe-style4.subscribe-style6 .orderform-text {
 	width: 100%;
 	padding-right: 15px;
 }
 
-.light .subscribe-style1 input.wpcf7-text, .light .subscribe-style2 input.wpcf7-text {
+.light .subscribe-style1 input.orderform-text, .light .subscribe-style2 input.orderform-text {
 	background: #fff;
 }
 
@@ -15830,7 +15784,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	background: transparent;
 }
 
-.subscribe-style1 + div.wpcf7-mail-sent-ng, .subscribe-style2 + div.wpcf7-mail-sent-ng, .subscribe-style3 + div.wpcf7-mail-sent-ng, .subscribe-style4 + div.wpcf7-mail-sent-ng, .subscribe-style5 + div.wpcf7-mail-sent-ng {
+.subscribe-style1 + div.orderform-mail-sent-ng, .subscribe-style2 + div.orderform-mail-sent-ng, .subscribe-style3 + div.orderform-mail-sent-ng, .subscribe-style4 + div.orderform-mail-sent-ng, .subscribe-style5 + div.orderform-mail-sent-ng {
 	border: none;
 	padding: 0px;
 	margin: 10px 0 0 0;
@@ -15844,27 +15798,27 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	margin-bottom: 0px;
 }
 
-.subscribe-style1.subscribe-style-new .wpcf7-text {
+.subscribe-style1.subscribe-style-new .orderform-text {
 	text-align: left;
 	padding: 0px 30px;
 }
 
-.subscribe-style1.subscribe-style-new.transparent-bg .wpcf7-text {
+.subscribe-style1.subscribe-style-new.transparent-bg .orderform-text {
 	background: rgba(0, 0, 0, 0.2);
 	border: 1px solid rgba(185, 185, 185, 0.2);
 	outline: none;
 }
 
-.light .subscribe-style1.subscribe-style-new.transparent-bg .wpcf7-text {
+.light .subscribe-style1.subscribe-style-new.transparent-bg .orderform-text {
 	background: rgba(238, 238, 238, 0.35);
 	border: 1px solid rgba(239, 235, 235, 0.2);
 }
 
-.light .subscribe-style1.subscribe-style-new.transparent-bg .wpcf7-text::-webkit-input-placeholder { color: #fff }
-.light .subscribe-style1.subscribe-style-new.transparent-bg .wpcf7-text:-moz-placeholder { color: #fff }
-.light .subscribe-style1.subscribe-style-new.transparent-bg .wpcf7-text::-moz-placeholder { color: #fff }
-.light .subscribe-style1.subscribe-style-new.transparent-bg .wpcf7-text:-ms-input-placeholder { color: #fff }
-.light .subscribe-style1.subscribe-style-new.transparent-bg .wpcf7-text:input-placeholder { color: #fff }
+.light .subscribe-style1.subscribe-style-new.transparent-bg .orderform-text::-webkit-input-placeholder { color: #fff }
+.light .subscribe-style1.subscribe-style-new.transparent-bg .orderform-text:-moz-placeholder { color: #fff }
+.light .subscribe-style1.subscribe-style-new.transparent-bg .orderform-text::-moz-placeholder { color: #fff }
+.light .subscribe-style1.subscribe-style-new.transparent-bg .orderform-text:-ms-input-placeholder { color: #fff }
+.light .subscribe-style1.subscribe-style-new.transparent-bg .orderform-text:input-placeholder { color: #fff }
 
 /* Shop Blocks */
 .shop-grid-sizer .shop-container {
@@ -16736,7 +16690,6 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	display: inline-block;
 	line-height: 70px;
 	margin-top: 45px;
-	float: left;
 }
 
 .demo-72 .demo {
@@ -16981,7 +16934,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 
 /* New Contact-7 Form style */
 
-.black_style .wpcf7-text, .black_style .wpcf7-select,.black_style .wpcf7-textarea {
+.black_style .orderform-text, .black_style .orderform-select,.black_style .orderform-textarea {
 	background: #222222;
 	color: #747474;
 	font-size: 16px;
@@ -16996,7 +16949,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	border: 1px solid transparent;
 }
 
-.black_style .wpcf7-textarea {
+.black_style .orderform-textarea {
 	padding: 10px 15px;
 	margin-bottom: 5px;
 }
@@ -17052,13 +17005,13 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	text-transform: lowercase;
 }
 
-.black_style .wpcf7-text input::-webkit-input-placeholder, .black_style .wpcf7-text textarea::-webkit-input-placeholder { color: #747474 }
-.black_style .wpcf7-text input:-moz-placeholder, .black_style .wpcf7-text textarea:-moz-placeholder { color: #747474 }
-.black_style .wpcf7-text input::-moz-placeholder, .black_style .wpcf7-text textarea::-moz-placeholder { color: #747474 }
-.black_style .wpcf7-text input:-ms-input-placeholder, .black_style .wpcf7-text textarea:-ms-input-placeholder { color: #747474 }
-.black_style .wpcf7-text input:input-placeholder, .black_style .wpcf7-text textarea:input-placeholder { color: #747474 }
+.black_style .orderform-text input::-webkit-input-placeholder, .black_style .orderform-text textarea::-webkit-input-placeholder { color: #747474 }
+.black_style .orderform-text input:-moz-placeholder, .black_style .orderform-text textarea:-moz-placeholder { color: #747474 }
+.black_style .orderform-text input::-moz-placeholder, .black_style .orderform-text textarea::-moz-placeholder { color: #747474 }
+.black_style .orderform-text input:-ms-input-placeholder, .black_style .orderform-text textarea:-ms-input-placeholder { color: #747474 }
+.black_style .orderform-text input:input-placeholder, .black_style .orderform-text textarea:input-placeholder { color: #747474 }
 
-.black_style.light_bg .wpcf7-text, .black_style.light_bg .wpcf7-select, .black_style.light_bg .wpcf7-textarea {
+.black_style.light_bg .orderform-text, .black_style.light_bg .orderform-select, .black_style.light_bg .orderform-textarea {
 	background: #fff;
 }
 
@@ -17173,7 +17126,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	margin-right: 0px;
 }
 
-.booking-form-wrap .wpcf7-form-control.wpcf7-submit {
+.booking-form-wrap .orderform-form-control.orderform-submit {
 	background: #a8a676;
 	border: 0;
 	border-radius: 0;
@@ -17189,7 +17142,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	display: inline-block;
 }
 
-.booking-form-wrap .wpcf7-form-control.wpcf7-submit:hover {
+.booking-form-wrap .orderform-form-control.orderform-submit:hover {
 	opacity: 0.9;
 }
 
@@ -17227,12 +17180,12 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	line-height: 50px;
 }
 
-.pharma-subscribe span.wpcf7-form-control-wrap {
+.pharma-subscribe span.orderform-form-control-wrap {
 	max-width: 100%;
 	width: 100%;
 }
 
-.pharma-subscribe span.wpcf7-form-control-wrap input {
+.pharma-subscribe span.orderform-form-control-wrap input {
 	width: 100%;
 	max-width: 100%;
 	background: #e0e0e0;
@@ -17294,7 +17247,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	text-align: center;
 }
 
-.icon_wrap span.wpcf7-form-control-wrap input {
+.icon_wrap span.orderform-form-control-wrap input {
 	width: 100%;
 	max-width: 100%;
 	background: #fff;
