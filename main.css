@@ -12816,16 +12816,16 @@ img.mfp-img {
 }
 
 /*Contact Form Widget */
-.widget .wpcf7-textarea {
+.widget .orderform-textarea {
 	min-height: 120px;
 	height: 120px;
 }
 
-.widget .wpcf7 p {
+.widget ..orderform p {
 	font-size: 13px;
 }
 
-.widget .contactform .textfield, .widget .wpcf7-text, .widget .wpcf7-number, .widget .wpcf7-date, .widget .wpcf7-select, .widget .wpcf7-quiz, .widget .wpcf7-captchar {
+.widget .contactform .textfield, .widget .orderform-text, .widget .orderform-number, .widget .orderform-date, .widget .orderform-select, .widget .orderform-quiz, .widget .orderform-captchar {
 	height: 35px;
 }
 
@@ -13405,13 +13405,13 @@ footer .col4 .widget:nth-last-child(4) {
 }
 
 /* Contact form */
-.contactForm label, .wpcf7 label {
+.contactForm label, .orderform label {
 	display: block;
 	color: #1a1a1a;
 	margin-bottom: 0;
 }
 
-.contactForm label.error, .wpcf7 label.error {
+.contactForm label.error, .orderform label.error {
 	color: rgba(255, 0, 0, 0.8);
 }
 
@@ -13419,29 +13419,29 @@ footer .col4 .widget:nth-last-child(4) {
 	color: green;
 }
 
-.wpcf7 p {
+.orderform p {
 	font-weight: 700;
 	font-size: 14px;
 	margin-bottom: 30px;
 }
 
-.wpcf7-captchac {
+.orderform-captchac {
 	margin-top: 20px;
 }
 
-.wpcf7-submit {
+.orderform-submit {
 	font-size: 14px;
 	font-family: "Montserrat", Arial, sans-serif;
 	text-transform: uppercase;
 	border-radius: 2px;
 }
 
-.wpcf7-not-valid-tip, .error {
+.orderform-not-valid-tip, .error {
 	margin-top: 5px;
 	color: #EE2F2F;
 }
 
-span.wpcf7-not-valid-tip {
+span.orderform-not-valid-tip {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -13449,11 +13449,11 @@ span.wpcf7-not-valid-tip {
 	font-weight: 600;
 }
 
-.wpcf7 input.wpcf7-not-valid, .wpcf7 .contact-default .wpcf7-textarea.wpcf7-not-valid {
+.orderform input.orderform-not-valid, .orderform .contact-default .orderform-textarea.orderform-not-valid {
 	border-color: #f43a3a;
 }
 
-.contactform .textfield, .wpcf7-text, .wpcf7-number, .wpcf7-date, .wpcf7-select, .wpcf7-quiz, .wpcf7-captchar {
+.contactform .textfield, .orderform-text, .orderform-number, .orderform-date, .orderform-select, .orderform-quiz, .orderform-captchar {
 	width: 100%;
 	max-width: 300px;
 	height: 40px;
@@ -13471,19 +13471,19 @@ span.wpcf7-not-valid-tip {
 	max-width: 100%;
 }
 
-.wpcf7 input::-webkit-input-placeholder, .wpcf7 textarea::-webkit-input-placeholder { color: #777 }
-.wpcf7 input:-moz-placeholder, .wpcf7 textarea:-moz-placeholder { color: #777 }
-.wpcf7 input::-moz-placeholder, .wpcf7 textarea::-moz-placeholder { color: #777 }
-.wpcf7 input:-ms-input-placeholder, .wpcf7 textarea:-ms-input-placeholder { color: #777 }
-.wpcf7 input:input-placeholder, .wpcf7 textarea:input-placeholder { color: #777 }
+.orderform input::-webkit-input-placeholder, .orderform textarea::-webkit-input-placeholder { color: #777 }
+.orderform input:-moz-placeholder, .orderform textarea:-moz-placeholder { color: #777 }
+.orderform input::-moz-placeholder, .orderform textarea::-moz-placeholder { color: #777 }
+.orderform input:-ms-input-placeholder, .orderform textarea:-ms-input-placeholder { color: #777 }
+.orderform input:input-placeholder, .orderform textarea:input-placeholder { color: #777 }
 
-.light .wpcf7 input::-webkit-input-placeholder, .light .wpcf7 textarea::-webkit-input-placeholder { color: #fff }
-.light .wpcf7 input:-moz-placeholder, .light .wpcf7 textarea:-moz-placeholder { color: #fff }
-.light .wpcf7 input::-moz-placeholder, .light .wpcf7 textarea::-moz-placeholder { color: #fff }
-.light .wpcf7 input:-ms-input-placeholder, .light .wpcf7 textarea:-ms-input-placeholder { color: #fff }
-.light .wpcf7 input:input-placeholder, .light .wpcf7 textarea:input-placeholder { color: #fff }
+.light .orderform input::-webkit-input-placeholder, .light .orderform textarea::-webkit-input-placeholder { color: #fff }
+.light .wpcf7 input:-moz-placeholder, .light .orderform textarea:-moz-placeholder { color: #fff }
+.light .wpcf7 input::-moz-placeholder, .light .orderform textarea::-moz-placeholder { color: #fff }
+.light .wpcf7 input:-ms-input-placeholder, .light .orderform textarea:-ms-input-placeholder { color: #fff }
+.light .wpcf7 input:input-placeholder, .light .orderform textarea:input-placeholder { color: #fff }
 
-span.wpcf7-form-control-wrap {
+span.form-control-wrap {
 	max-width: 300px;
 	width: 100%;
 }
@@ -13492,7 +13492,7 @@ span.wpcf7-form-control-wrap {
 	width: 150px;
 }
 
-div.wpcf7-validation-errors {
+div.orderform-validation-errors {
 	clear: both;
 	float: left;
 	width: 100%;
@@ -13500,7 +13500,7 @@ div.wpcf7-validation-errors {
 	margin-right: 0;
 }
 
-.contactform .message, .wpcf7-textarea {
+.contactform .message, -textarea {
 	min-height: 220px;
 	padding: 10px; 
 	border: 1px solid #eaeaea;
@@ -13565,7 +13565,7 @@ div.wpcf7-validation-errors {
 	transition: border ease .3s;
 }
 
-.smart-form-1 .wpcf7-textarea {
+.smart-form-1 -textarea {
 	min-height: auto;
 	max-height: 150px;
 	padding: 20px 30px;
@@ -13588,7 +13588,7 @@ div.wpcf7-validation-errors {
 	border-width: 2px;
 }
 
-.smart-form-1.round-corner .wpcf7-textarea {
+.smart-form-1.round-corner -textarea {
 	border-radius: 20px;
 	border-width: 2px;
 }
@@ -13686,7 +13686,7 @@ div.wpcf7-validation-errors {
 	margin-bottom: 3px;
 }
 
-.smart-form-3 .wpcf7-textarea {
+.smart-form-3 textarea {
 	border-radius: 4px;
 	height: 180px;
 	min-height: auto;
@@ -13710,31 +13710,31 @@ div.wpcf7-validation-errors {
 	margin-top: 15px;
 }
 
-.wpcf7 .smart-form-3 input::-webkit-input-placeholder, .wpcf7 .smart-form-3 textarea::-webkit-input-placeholder { color: #1a1a1a }
-.wpcf7 .smart-form-3 input:-moz-placeholder, .wpcf7 .smart-form-3 textarea:-moz-placeholder { color: #1a1a1a }
-.wpcf7 .smart-form-3 input::-moz-placeholder, .wpcf7 .smart-form-3 textarea::-moz-placeholder { color: #1a1a1a }
-.wpcf7 .smart-form-3 input:-ms-input-placeholder, .wpcf7 .smart-form-3 textarea:-ms-input-placeholder { color: #1a1a1a }
-.wpcf7 .smart-form-3 input:input-placeholder, .wpcf7 .smart-form-3 textarea:input-placeholder { color: #1a1a1a }
+.smart-form-3 input::-webkit-input-placeholder, .smart-form-3 textarea::-webkit-input-placeholder { color: #1a1a1a }
+.smart-form-3 input:-moz-placeholder,  .smart-form-3 textarea:-moz-placeholder { color: #1a1a1a }
+.smart-form-3 input::-moz-placeholder,  .smart-form-3 textarea::-moz-placeholder { color: #1a1a1a }
+.smart-form-3 input:-ms-input-placeholder,  .smart-form-3 textarea:-ms-input-placeholder { color: #1a1a1a }
+.smart-form-3 input:input-placeholder, .smart-form-3 textarea:input-placeholder { color: #1a1a1a }
 
-.light .wpcf7 .smart-form-3 input::-webkit-input-placeholder, .light .wpcf7 .smart-form-3 textarea::-webkit-input-placeholder { color: #fff }
-.light .wpcf7 .smart-form-3 input:-moz-placeholder, .light .wpcf7 .smart-form-3 textarea:-moz-placeholder { color: #fff }
-.light .wpcf7 .smart-form-3 input::-moz-placeholder, .light .wpcf7 .smart-form-3 textarea::-moz-placeholder { color: #fff }
-.light .wpcf7 .smart-form-3 input:-ms-input-placeholder, .light .wpcf7 .smart-form-3 textarea:-ms-input-placeholder { color: #fff }
-.light .wpcf7 .smart-form-3 input:input-placeholder, .light .wpcf7 .smart-form-3 textarea:input-placeholder { color: #fff }
+.light .smart-form-3 input::-webkit-input-placeholder, .light  .smart-form-3 textarea::-webkit-input-placeholder { color: #fff }
+.light .smart-form-3 input:-moz-placeholder, .light  .smart-form-3 textarea:-moz-placeholder { color: #fff }
+.light .smart-form-3 input::-moz-placeholder, .light .smart-form-3 textarea::-moz-placeholder { color: #fff }
+.light .smart-form-3 input:-ms-input-placeholder, .light  .smart-form-3 textarea:-ms-input-placeholder { color: #fff }
+.light .smart-form-3 input:input-placeholder, .light  .smart-form-3 textarea:input-placeholder { color: #fff }
 
-.light .smart-form-3, .light .smart-form-3 .wpcf7-text, .light .smart-form-3 .wpcf7-textarea, .light .smart-form-3 .smart-btn3 .btn {
+.light .smart-form-3, .light .smart-form-3 .text, .light .smart-form-3 textarea, .light .smart-form-3 .smart-btn3 .btn {
 	color: #fff;
 }
 
 /* Smart Form 4 */
-.smart-form-4 .wpcf7-text, .smart-form-4 .wpcf7-date, .smart-form-4 select {
+.smart-form-4 -text, .smart-form-4 -date, .smart-form-4 select {
 	border: none;
 	border-bottom: 1px solid #b7b7b7;
 	max-width: 100%;
 	color: #777;
 }
 
-.smart-form-4 .wpcf7-textarea {
+.smart-form-4 -textarea {
 	border: none;
 	border-bottom: 1px solid #b7b7b7;
 	height: 180px;
@@ -13764,7 +13764,7 @@ div.wpcf7-validation-errors {
 }
 
 /* Smart Form 4 & soyyo-form smart-form-4 */
-.soyyo-form.smart-form-4 .wpcf7-text, .soyyo-form.smart-form-4 .wpcf7-date, .soyyo-form.smart-form-4  select, .soyyo-form.smart-form-4  .wpcf7-textarea {
+.soyyo-form.smart-form-4 -text, .soyyo-form.smart-form-4 -date, .soyyo-form.smart-form-4  select, .soyyo-form.smart-form-4  .wpcf7-textarea {
 	border-width: 2px;
 	border-color: red;
 }
@@ -13786,7 +13786,7 @@ div.wpcf7-validation-errors {
 	margin: 0 auto;
 }
 
-.soyyo-form.smart-form-4 .wpcf7-submit.btn, .soyyo-form.smart-form-4 .wpcf7-submit.btn:hover {
+.soyyo-form.smart-form-4 .orderform-submit.btn, .soyyo-form.smart-form-4 .orderform-submit.btn:hover {
 	padding: 0;
 	background: transparent;
 	border: 0;
@@ -13823,18 +13823,18 @@ div.wpcf7-validation-errors {
 	color: #392C19;
 }
 
-.wpcf7 .smart-form-5 label {
+ .smart-form-5 label {
 	font-weight: 500;
 	font-family: "Montserrat", Arial, sans-serif;
 	color: #272E05;
 }
 
-.smart-form-5 .wpcf7-text {
+.smart-form-5 .orderform-text {
 	background: #fff;
 	border: none;
 }
 
-.smart-form-5 .wpcf7-textarea {
+.smart-form-5 .orderform-textarea {
 	background: #fff;
 	min-height: auto;
 	height: 180px;
@@ -13849,7 +13849,7 @@ div.wpcf7-validation-errors {
 	font-size: 14px;
 }
 
-.smart-form-5 + div.wpcf7-validation-errors {
+.smart-form-5 + div.orderform-validation-errors {
 	border-color: red;
 	color: red;
 	font-weight: 700;
@@ -13872,7 +13872,7 @@ div.wpcf7-validation-errors {
 	margin-bottom: 10px;
 }
 
-.smart-form-6 .wpcf7-text {
+.smart-form-6 .orderform-text {
 	border: none;
 	border-bottom: 1px solid #b7b7b7;
 	max-width: 100%;
@@ -13880,7 +13880,7 @@ div.wpcf7-validation-errors {
 	padding: 0;
 }
 
-.smart-form-6 .wpcf7-textarea {
+.smart-form-6 .orderform-textarea {
 	border: none;
 	border-bottom: 1px solid #b7b7b7;
 	height: 40px;
@@ -13902,7 +13902,7 @@ div.wpcf7-validation-errors {
 }
 
 /* Smart Form 7 */
-.smart-form-7 .wpcf7-form-control-wrap input {
+.smart-form-7 .orderform-form-control-wrap input {
 	max-width: 100%;
 	height: 50px;
 	padding: 0px 15px;
@@ -13911,12 +13911,12 @@ div.wpcf7-validation-errors {
 	
 }
 
-.smart-form-7 .wpcf7-form-control.wpcf7-submit.btn {
+.smart-form-7 .orderform-form-control.orderform-submit.btn {
 	padding: 6px 35px;
 	border-radius: 5px;
 }
 
-.smart-form-7 .wpcf7-form-control-wrap .wpcf7-textarea {
+.smart-form-7 .form-control-wrap .textarea {
 	padding: 15px;
 	height: 180px;
 	min-height: auto;
