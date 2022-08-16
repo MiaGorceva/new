@@ -13438,7 +13438,7 @@ span.orderform-not-valid-tip {
 .light .orderform input:input-placeholder, .light .orderform textarea:input-placeholder { color: #fff }
 
 span.form-control-wrap {
-	max-width: 300px;
+	max-width: 100%;
 	width: 100%;
 }
 
@@ -13858,8 +13858,8 @@ div.orderform-validation-errors {
 /* Smart Form 7 */
 .smart-form-7 .orderform-form-control-wrap input {
 	max-width: 100%;
-	height: 50px;
-	padding: 0px 15px;
+	height: 200px;
+	padding: 0px 3%;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	
@@ -13872,7 +13872,7 @@ div.orderform-validation-errors {
 
 .smart-form-7 .form-control-wrap .textarea {
 	padding: 15px;
-	height: 180px;
+	height: 200px;
 	min-height: auto;
 	margin-bottom: 20px;
 }
@@ -17251,7 +17251,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 	width: 100%;
 	max-width: 100%;
 	background: #fff;
-	height: 50px;
+	height: 200px;
 	padding-left: 20px;
 	padding-right: 50px;
 	font-size: 16px;
