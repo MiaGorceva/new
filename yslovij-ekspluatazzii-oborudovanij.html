@@ -360,7 +360,7 @@ font-size: 48px !important;
 					<div class="container">
 						<div class="copyright row">
 							
-							
+							<php>
 								$composer_copyright_side = composer_get_option_value( 'copyright_side', 'center' );
 
 								$copyright = array( 
@@ -376,7 +376,7 @@ font-size: 48px !important;
 									),
 								);
 
-						/*		if( $composer_copyright_side === 'left_right' ){
+								if( $composer_copyright_side === 'left_right' ){
 									$composer_copyright_side_left = composer_get_option_array_value('copyright_sorter','left', $copyright['left'] );
 
 									echo '<div class="col-md-6">';
