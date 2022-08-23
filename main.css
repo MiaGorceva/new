@@ -24,7 +24,7 @@ body :focus {
 	color: #1a1a1a;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	color: #1a1a1a!important;
 	font-family: "Montserrat", Arial, sans-serif;
@@ -35,6 +35,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 p {
 	margin-bottom: 20px;
+	font-weight: 400;
+	word-wrap: break-word;
+	font-size: 14px;
 }
 
 /* Default Gallery */
@@ -544,21 +547,21 @@ body.composer-frame {
 
 
 h1 {
-	font-size: 24px;
+	font-size: 39px;
 }
 
 h2 {
-	font-size: 21px;
+	font-size: 28px;
 }
 
 h3 {
-	font-size: 18px !important;
+	font-size: 20px !important;
 }
 
 h4 {
 	margin: 8px 0;
 	font-size: 16px !important;
-	font-weight: 400;
+	font-weight: 400 !important;
 }
 
 h5 {
