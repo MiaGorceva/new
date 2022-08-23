@@ -425,7 +425,7 @@ div[class^="mpc-"] > p {
 
 /* Magnific Popup opacity override */
 .mfp-wrap * {
-	/*opacity: 1;*/
+	opacity: 1;
 }
 @-webkit-keyframes fadeIn {
 	0% {opacity: 0;}
@@ -461,6 +461,7 @@ div[class^="mpc-"] > p {
 	-ms-animation-fill-mode: both;
 	-o-animation-fill-mode: both;
 	animation-fill-mode: both;
+	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
@@ -603,7 +604,7 @@ button.mfp-arrow, button.mfp-close {
 
 @media screen and (max-width: 768px) { .mpc-animated-text { display: block; margin: 0 auto; } }
 
-.mpc-animated-text:before { content: '\00a0'; display: inline-block; width: 0; float: left; }
+.mpc-animated-text:before { content: '\00a0'; display: inline-block; width: 0; }
 
 .mpc-animated-text__block, .mpc-animated-text__word { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 
@@ -644,7 +645,7 @@ button.mfp-arrow, button.mfp-close {
 \*----------------------------------------------------------------------------*/
 .mpc-button { position: relative; display: inline-block; overflow: hidden; text-decoration: none; z-index: 1; }
 
-.mpc-button:hover { -webkit-transform: translate3d(0, 0, 0); }
+.mpc-button:hover { transform: translate3d(0, 0, 0); }
 
 .mpc-tooltip-wrap > .mpc-button { display: block; }
 
@@ -941,7 +942,7 @@ button.mfp-arrow, button.mfp-close {
 
 .mpc-carousel-image .mpc-icon-anchor { display: inline-block; vertical-align: bottom; text-align: center; -webkit-transition: all .25s; transition: all .25s; }
 
-.mpc-carousel-image .mpc-icon-anchor i { display: block; vertical-align: bottom; width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
+.mpc-carousel-image .mpc-icon-anchor i { display: block;  width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
 
 .mpc-carousel-image .mpc-icon-anchor i.mpc-icon--image, .mpc-carousel-image .mpc-icon-anchor i.mpc-icon--character { width: auto; }
 
@@ -1032,7 +1033,7 @@ button.mfp-arrow, button.mfp-close {
 
 .mpc-carousel-slider .mpc-icon-anchor { display: inline-block; vertical-align: bottom; text-align: center; -webkit-transition: all .25s; transition: all .25s; }
 
-.mpc-carousel-slider .mpc-icon-anchor i { display: block; vertical-align: bottom; width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
+.mpc-carousel-slider .mpc-icon-anchor i { display: block;  width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
 
 .mpc-carousel-slider .mpc-icon-anchor i.mpc-icon--image, .mpc-carousel-slider .mpc-icon-anchor i.mpc-icon--character { width: auto; }
 
@@ -1053,7 +1054,6 @@ button.mfp-arrow, button.mfp-close {
 .mpc-carousel-slider.mpc-overlay--slide-right .mpc-item-overlay { top: 0; left: -100%; }
 
 /* Overlay & Item Hover Settings */
-.mpc-carousel__item-wrapper:hover { /* Overlay */ }
 
 .mpc-carousel__item-wrapper:hover .mpc-item-overlay { visibility: visible; }
 
@@ -1368,7 +1368,7 @@ button.mfp-arrow, button.mfp-close {
 /*----------------------------------------------------------------------------*\
 	DROPCAP SHORTCODE
 \*----------------------------------------------------------------------------*/
-.mpc-dropcap { display: inline-block; float: left; }
+.mpc-dropcap { display: inline-block; }
 
 /*----------------------------------------------------------------------------*\
 	GRID ANYTHING SHORTCODE
@@ -1427,7 +1427,7 @@ button.mfp-arrow, button.mfp-close {
 
 .mpc-grid-images .mpc-icon-anchor { display: inline-block; vertical-align: bottom; text-align: center; -webkit-transition: all .25s; transition: all .25s; }
 
-.mpc-grid-images .mpc-icon-anchor i { display: block; vertical-align: bottom; width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
+.mpc-grid-images .mpc-icon-anchor i { display: block; width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
 
 .mpc-grid-images .mpc-icon-anchor i.mpc-icon--image, .mpc-grid-images .mpc-icon-anchor i.mpc-icon--character { width: auto; }
 
@@ -1448,7 +1448,7 @@ button.mfp-arrow, button.mfp-close {
 .mpc-grid-images.mpc-overlay--slide-right .mpc-item-overlay { top: 0; left: -100%; }
 
 /* Overlay & Item Hover Settings */
-.mpc-grid__image:hover { /* Overlay */ }
+
 
 .mpc-grid__image:hover .mpc-item-overlay { visibility: visible; }
 
@@ -1717,7 +1717,7 @@ a.mpc-icon-column { text-decoration: none; }
 
 .mpc-image .mpc-icon-anchor { display: inline-block; vertical-align: bottom; text-align: center; cursor: pointer; -webkit-transition: all .25s; transition: all .25s; }
 
-.mpc-image .mpc-icon-anchor i { display: block; vertical-align: bottom; width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
+.mpc-image .mpc-icon-anchor i { display: block; width: 1.35em; height: 1.35em; line-height: 1.35em; font-style: normal; -webkit-transition: inherit; transition: inherit; }
 
 .mpc-image .mpc-icon-anchor i.mpc-icon--image, .mpc-image .mpc-icon-anchor i.mpc-icon--character { width: auto; }
 
@@ -1740,7 +1740,6 @@ a.mpc-icon-column { text-decoration: none; }
 .mpc-image.mpc-interactive-banner-fix .mpc-icon-anchor i.mpc-icon--character { height: auto; }
 
 /* Overlay & Item Hover Settings */
-.mpc-image:hover { /* Overlay */ }
 
 .mpc-image:hover .mpc-item-overlay { visibility: visible; }
 
@@ -2788,7 +2787,6 @@ html.mpc-block-scroll body.mpc-salient-theme .mpc-row-modal { z-index: 101 !impo
 .mpc-item--fade .mpc-post .mpc-post__wrapper > .mpc-post__content, .mpc-item--none .mpc-post .mpc-post__wrapper > .mpc-post__content { opacity: 1; }
 
 /* Overlay & Item Hover Settings */
-.mpc-post:hover { /* Overlay */ }
 
 .mpc-post:hover .mpc-post__overlay { visibility: visible; }
 
@@ -3319,7 +3317,7 @@ html.mpc-block-scroll body.mpc-salient-theme .mpc-row-modal { z-index: 101 !impo
 
 .mpc-testimonial__thumbnail { float: left; display: block; z-index: 1; margin: 0 1em 0 0; max-width: 100% !important; }
 
-.mpc-testimonial__thumbnail img { margin: 0 auto; vertical-align: bottom; max-width: 100% !important; display: block; }
+.mpc-testimonial__thumbnail img { margin: 0 auto; max-width: 100% !important; display: block; }
 
 .mpc-testimonial__content { display: block; position: relative; z-index: 2; overflow: hidden; }
 
@@ -3612,7 +3610,7 @@ html.mpc-block-scroll body.mpc-salient-theme .mpc-row-modal { z-index: 101 !impo
 
 .mpc-wc-add_to_cart-wrap { position: relative; display: inline-block; vertical-align: middle; z-index: 2; -webkit-transition: width .25s ease-in-out; transition: width .25s ease-in-out; }
 
-.mpc-wc-add_to_cart-wrap:hover .mpc-wc-add_to_cart { z-index: 2; -webkit-transform: translate3d(0, 0, 0); }
+.mpc-wc-add_to_cart-wrap:hover .mpc-wc-add_to_cart { z-index: 2; transform: translate3d(0, 0, 0); }
 
 .mpc-wc-add_to_cart-wrap:hover .mpc-atc__title { opacity: 0; }
 
@@ -3872,8 +3870,6 @@ html.mpc-block-scroll body.mpc-salient-theme .mpc-row-modal { z-index: 101 !impo
 
 .mpc--no-replace .mpc-thumb__content .mpc-thumb__content, .mpc--no-replace .mpc-thumb__content-hover .mpc-thumb__content { position: absolute; -webkit-transition: all .25s ease-in-out; transition: all .25s ease-in-out; }
 
-.mpc-product__wrapper { /* Overlay on hover */ }
-
 [data-thumb-effects$="fade"] .mpc-product__wrapper .mpc-thumb__content-hover { top: 0; left: 0; opacity: 0; }
 
 [data-thumb-effects$="slide-up"] .mpc-product__wrapper .mpc-thumb__content-hover { top: 100%; left: 0; }
@@ -4014,7 +4010,7 @@ html.mpc-block-scroll body.mpc-salient-theme .mpc-row-modal { z-index: 101 !impo
 .mpc--no-thumb .mpc-wc-category__wrap .mpc-category__wrapper { overflow: visible; }
 
 /* Animate Regular with replacement */
-.mpc-wc-category__wrap { /* Overlay on hover */ }
+
 
 .mpc--force-replace .mpc-wc-category__wrap .mpc-category__content, .mpc--force-replace .mpc-wc-category__wrap .mpc-category__overlay { display: flex; }
 
