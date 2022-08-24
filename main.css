@@ -37,7 +37,8 @@ p {
 	margin-bottom: 20px;
 	font-weight: 400;
 	word-wrap: break-word;
-	font-size: 14px;
+	font-size: 16px;
+	text-align: left;
 }
 
 /* Default Gallery */
@@ -574,13 +575,6 @@ h6 {
 	font-size: 12px !important;
 	margin: 8px 0;
 	font-weight: 400;
-}
-
-p {
-	font-size: 16px !important;
-	margin: 8px 0;
-	font-weight: 400;
-	text-align: left;
 }
 
 a {
