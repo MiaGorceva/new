@@ -25,13 +25,11 @@ body :focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin-top: 7%;
 	color: #1a1a1a!important;
 	font-family: "Montserrat", Arial, sans-serif;
 	font-weight: 700;
 	line-height: 1.5;
 	word-wrap: break-word;
-	text-align: left;
 }
 
 p {
@@ -550,6 +548,8 @@ body.composer-frame {
 
 h1 {
 	font-size: 39px;
+	margin-top: 7%;
+	text-align: left;
 }
 
 h2 {
@@ -557,23 +557,23 @@ h2 {
 }
 
 h3 {
-	font-size: 20px !important;
+	font-size: 20px;
 }
 
 h4 {
 	margin: 8px 0;
-	font-size: 16px !important;
+	font-size: 16px;
 	font-weight: 400 !important;
 }
 
 h5 {
-	font-size: 14px !important;
+	font-size: 14px;
 	margin: 8px 0;
 	font-weight: 400;
 }
 
 h6 {
-	font-size: 12px !important;
+	font-size: 12px;
 	margin: 8px 0;
 	font-weight: 400;
 }
