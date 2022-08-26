@@ -548,8 +548,7 @@ body.composer-frame {
 
 h1 {
 	font-size: 39px;
-	margin-top: 7%;
-	text-align: left;
+	text-align: left!important;
 }
 
 h2 {
@@ -16708,6 +16707,7 @@ blockquote, .pix_icon_box:hover .circle, .pix_icon_box:hover .square:after, .pix
 
 .create-websites .uvc-main-heading h2 {
 	font-size: 42px;
+	text-align: left;
 }
 
 .create-websites .uvc-sub-heading {
