@@ -277,8 +277,11 @@
 										<div id="logo" class="sticky-logo-yes"><a href="https://mite.club/" class="mobile-logo-yes" rel="home" itemprop="url"><img src="/uploads/2021/03/logo_green_new.png" alt="MITE" class="dark-logo"><img src="/uploads/2019/06/Logo_light_WHITE-1-e1592065935818.png" alt="MITE" class="light-logo"><img src="/uploads/2020/06/logo_green_new.png" data-rjs="/uploads/2020/06/logo_green_new.png" alt="MITE" class="sticky-logo"><img src="/uploads/2020/01/logo_green_small-e1591106596297.png" alt="MITE" class="mobile-res-logo"></a>
 										</div>
 										<div class="pix-menu">
-											<div class="pix-menu-trigger"><span class="mobile-menu">Menu</span></div>
+											<div class="pix-menu-trigger" onclick="klikaj('rad1')"><span class="mobile-menu">Menu</span></div>
 										</div>
+											function klikaj(i) {
+												document.getElementById(i).style.visibility='visible';
+											}
 										<div class="widget-right"></div>
 										<nav class="main-nav">
 											<ul id="menu-left_menu-1" class="menu clearfix">
