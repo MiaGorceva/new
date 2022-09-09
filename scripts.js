@@ -1704,7 +1704,8 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 		//Woo DropDown
 		woo_drop_down();
 
-		var $simplemenu = $( '#dl-menu' );
+		var $simple
+		 = $( '#dl-menu' );
 
 		/* Sticky Header */
 		var $headerCon = $('.header-con.pix-sticky-header');
