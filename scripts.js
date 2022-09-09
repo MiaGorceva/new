@@ -2136,7 +2136,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 		$('.tool-tip').tooltip();
 
-		$('.mobile-menu-nav li.menu-item-has-children').on('click', '.pix-dropdown-arrow, a[href="#"], a[href=""]', function (e) {
+		$('.mobile-menu-menu-nav li.menu-item-has-children').on('click', '.pix-dropdown-arrow, a[href="#"], a[href=""]', function (e) {
 			e.preventDefault();
 			e.stopPropagation();
 			var $li = $(this).parent('li');
