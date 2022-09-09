@@ -1665,15 +1665,15 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 			});
 		}
 
-	//	$('#dot-nav').css({marginTop:-($('#dot-nav').height()/2)});
-	//	var changeHashInURL = ($('body').hasClass('pix-ajaxify')) ? false : true;
+		$('#dot-nav').css({marginTop:-($('#dot-nav').height()/2)});
+		var changeHashInURL = ($('body').hasClass('pix-ajaxify')) ? false : true;
 
-	//	$('#dot-nav').amzOnePageNav({
-	//		currentClass: 'current',
-	//		changeHash: changeHashInURL
-	//	});
+	$('#dot-nav').amzOnePageNav({
+			currentClass: 'current',
+			changeHash: changeHashInURL
+		});
 
-	/*	$('.main-nav').amzOnePageNav({
+		$('.main-nav').amzOnePageNav({
 			currentClass: 'current-menu-item',
 			changeHash: changeHashInURL,
 			filter: ':not(.external)',
@@ -1699,7 +1699,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 			removalDelay: 160,
 			preloader: false,
 			fixedContentPos: true
-		});*/
+		});
 
 		//Woo DropDown
 		woo_drop_down();
