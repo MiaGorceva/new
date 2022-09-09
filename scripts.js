@@ -1621,13 +1621,14 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 		}
 
 		/* Skrollr */
-		$(function (){ var s = skrollr.init({
+		(function ($) {
+			var s = skrollr.init({
 			easing: {
 				quintic: function(p) {
 					return 1*(p*p*p*p*p) - 5*(p*p*p*p) + 10*(p*p*p) - 10*(p*p) + 5*p;
 				}
 			},forceHeight: false
-		});});
+		});}) (jQuery);
 
 		if (s.isMobile()) {
     			s.destroy();
