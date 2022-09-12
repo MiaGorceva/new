@@ -170,7 +170,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 			},
 			complete: function() {
 				//Magnific Popup
-				$('.popup-gallery').magnificPopup({
+			/*	$('.popup-gallery').magnificPopup({
 					type: 'image',
 					tLoading: 'Loading image...',
 					mainClass: 'mfp-img-mobile',
@@ -193,7 +193,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 							return element;
 						}
 					}
-				});
+				});*/
 			},
 		}).done(function(data) {
 
