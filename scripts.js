@@ -702,7 +702,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 				//Show Menu
 				$mMenu.addClass('mobile-nav').addClass('moved');
-				$('.left-main-menu').addClass('moved');
+				$('.menu-item').addClass('moved');
 
 				mMenuStatus = 1;    
 
@@ -713,7 +713,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 						$this.parent().removeClass('pix-menu-open').addClass('pix-menu-close');
 						$('#content-pusher').removeClass('content-pushed');
 						$mMenu.removeClass('mobile-nav').removeClass('moved');
-						$('.left-main-menu').removeClass('moved');
+						$('.menu-item').removeClass('moved');
 						$pixOverlay.fadeOut(300, function() {
 							$(this).remove();
 						});
@@ -725,7 +725,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 			}else{
 				$mMenu.removeClass('mobile-nav').removeClass('moved');
-				$('.left-main-menu').removeClass('moved');
+				$('.menu-item').removeClass('moved');
 				$pixOverlay.fadeOut(300, function() {
 					$(this).remove();
 				});
@@ -813,7 +813,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 		});
 
 		//Magnific Popup
-		/*$('.popup-gallery').magnificPopup({
+		$('.popup-gallery').magnificPopup({
 			type: 'image',
 			tLoading:'Loading image...',
 			mainClass: 'mfp-img-mobile',
@@ -836,7 +836,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 					return element;
 				}
 			}
-		});/*
+		});
 
 		/* Pie Chart Used in Skills */
 		$('.pix-chart').each(function(index, el) {
