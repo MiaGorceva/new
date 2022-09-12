@@ -2088,7 +2088,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 	};
 
-	$(window).load(function() {		
+	$(window).on(function() {		
 
 		afterPageLoad();
 		if( $('body').hasClass('pix-preload-enabled') ){
