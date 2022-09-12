@@ -89,7 +89,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 (function($){
 	'use strict';
 
-	$(window).unload(function(){});
+	$(window).on('unload',function(){});
 
 	String.prototype.decodeHTML = function() {
 		return $("<div>", {html: "" + this}).html();
