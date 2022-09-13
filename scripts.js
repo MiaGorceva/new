@@ -702,7 +702,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 				//Show Menu
 				$mMenu.addClass('mobile-nav').addClass('moved');
-				$('.menu-item').addClass('moved');
+			//	$('.menu-item').addClass('moved');
 
 				mMenuStatus = 1;    
 
