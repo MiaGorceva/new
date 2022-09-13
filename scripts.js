@@ -2503,7 +2503,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 					// then move li.pix-title-style next to parent li
 					var $parentLi = $this.parents('li'),
-						$parentLiNext = $parentLi.next('.moved-pix-title-style');
+						//$parentLiNext = $parentLi.next('.moved-pix-title-style');
 
 					if( $parentLiNext.length ) {
 						var $moveItems = $parentLi.parent().find('.moved-pix-title-style'),
