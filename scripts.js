@@ -170,7 +170,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 			},
 			complete: function() {
 				//Magnific Popup
-			/*	$('.popup-gallery').magnificPopup({
+				$('.popup-gallery').magnificPopup({
 					type: 'image',
 					tLoading: 'Loading image...',
 					mainClass: 'mfp-img-mobile',
@@ -193,7 +193,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 							return element;
 						}
 					}
-				});*/
+				});
 			},
 		}).done(function(data) {
 
@@ -1485,18 +1485,18 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 	    );
 	},
 
-	afterPageLoad = function() {/*
+	afterPageLoad = function() {
 
-	//	$('.popup-lightbox a').magnificPopup({
-	//		type: 'image',
-	//		closeOnContentClick: true,
-	//		mainClass: 'mfp-img-mobile',
-	//		image: {
-	//			verticalFit: true
-	//		}
-	//	});
+		$('.popup-lightbox a').magnificPopup({
+			type: 'image',
+			closeOnContentClick: true,
+			mainClass: 'mfp-img-mobile',
+			image: {
+				verticalFit: true
+			}
+		});
 
-	/*	var $shopContainer = $('.shop-contents');
+		var $shopContainer = $('.shop-contents');
 		$shopContainer.isotope({
 			itemSelector : '.shop-item',
 			percentPosition: true,
@@ -1539,7 +1539,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 			masonry : {
 				columnWidth : '.recent-blog-grid-sizer'
 			}
-		});*/
+		});
 
 		// Load More
 		var $loadMoreBtn = $( '.block-load-more-btn' );
