@@ -2454,22 +2454,24 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 			if($('.mobile-menu-nav').hasClass('mobile-nav')){
 				$('.pix-menu-trigger').trigger('click');
 			}
+
+			loadPage(href);
 			
-			if (href.indexOf(document.domain) > -1 || href.indexOf(':') === -1){
+		/*	if (href.indexOf(document.domain) > -1 || href.indexOf(':') === -1){
 				if($(window).scrollTop() > 10){
 
 					$("body,html").animate({ scrollTop:0 },300,function(){
 						history.pushState({}, '', href);
-						loadPage("monitoring.mite.is");
+						loadPage(href);
 						
 					});
 				}else{
 					history.pushState({}, '', href);
-					loadPage(onliner.by);
+					loadPage(href);
 				}
 
 				return false;
-			}
+			}*/
 			
 		});
 
