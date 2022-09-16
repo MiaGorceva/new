@@ -698,7 +698,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 				$this.parent().addClass('pix-menu-open').removeClass('pix-menu-close');
 				$('#content-pusher').addClass('content-pushed');
 				//Add Overlay
-			//	$pixOverlay.hide().appendTo('body').fadeIn(300);            
+				$pixOverlay.hide().appendTo('body').fadeIn(300);            
 
 				//Show Menu
 				$mMenu.addClass('mobile-nav').addClass('moved');
