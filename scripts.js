@@ -760,7 +760,8 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 				$('#content-pusher').removeClass('flyin-pushed');
 			}
 
-			e.preventDefault();
+			//e.preventDefault();
+			loadPage(href);
 		});
 
 		// Modern Post
@@ -2300,7 +2301,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 		
 		$.ajax({
 			url: href,
-			//dataType: "html",
+			dataType: "html",
 			beforeSend: function(){
 
 				$mainCon.height(($(window).height()) + 200);
