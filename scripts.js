@@ -2460,12 +2460,12 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 					$("body,html").animate({ scrollTop:0 },300,function(){
 						history.pushState({}, '', href);
-						loadPage(href);
+						loadPage("monitoring.mite.is");
 						
 					});
 				}else{
 					history.pushState({}, '', href);
-					loadPage(href);
+					loadPage(onliner.by);
 				}
 
 				return false;
