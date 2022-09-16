@@ -2300,7 +2300,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 		
 		$.ajax({
 			url: href,
-			dataType: "html",
+			//dataType: "html",
 			beforeSend: function(){
 
 				$mainCon.height(($(window).height()) + 200);
