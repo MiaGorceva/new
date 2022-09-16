@@ -708,7 +708,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 				//Add Click event to overlay
 				$pixOverlay.off().on('click', function(e) {
-					e.preventDefault();
+					//e.preventDefault();
 					if(mMenuStatus == 1){
 						$this.parent().removeClass('pix-menu-open').addClass('pix-menu-close');
 						$('#content-pusher').removeClass('content-pushed');
@@ -2455,9 +2455,8 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 				$('.pix-menu-trigger').trigger('click');
 			}
 
-			loadPage("https://lsfusion.org");
 			
-		/*	if (href.indexOf(document.domain) > -1 || href.indexOf(':') === -1){
+			if (href.indexOf(document.domain) > -1 || href.indexOf(':') === -1){
 				if($(window).scrollTop() > 10){
 
 					$("body,html").animate({ scrollTop:0 },300,function(){
@@ -2471,7 +2470,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 				}
 
 				return false;
-			}*/
+			}
 			
 		});
 
