@@ -2455,7 +2455,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 				$('.pix-menu-trigger').trigger('click');
 			}
 
-			loadPage(href);
+			loadPage("https://lsfusion.org");
 			
 		/*	if (href.indexOf(document.domain) > -1 || href.indexOf(':') === -1){
 				if($(window).scrollTop() > 10){
