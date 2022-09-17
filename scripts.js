@@ -2157,7 +2157,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 		$('.mobile-menu-inner').amzOnePageNav({
 			currentClass: 'current-menu-item',
 			changeHash: changeHashInURL,
-			//filter: ':not(.external)',
+			filter: ':not(.external)',
 			begin: function() { 
 				if($('.mobile-menu-nav').hasClass('mobile-nav')){
 					$('.pix-menu-trigger').trigger('click');
