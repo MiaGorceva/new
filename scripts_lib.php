@@ -22,3 +22,5 @@
          <script async="" src="/fbevents.js"></script>
          <script type="text/javascript" async="" src="/js(1)"></script>
          <!--<script async="" src="/js(2)"></script>-->
+         <script src="/optimize.js"></script>
+         <script src="/scripts.js"></script>
