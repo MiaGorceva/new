@@ -23,7 +23,7 @@ function loadGravatars() {
 	}
 } // end function
 
-if( jQuery('body').hasClass('pix-ajaxify') ) {
+/*if( jQuery('body').hasClass('pix-ajaxify') ) {
 
 	window.vc_js = function () {
 		if( typeof('vc_toggleBehaviour') != 'undefined'){  // todo remove on next release
@@ -83,7 +83,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 		
 	};
 
-}
+}*/
 
 /* Theme Scripts */
 (function($){
