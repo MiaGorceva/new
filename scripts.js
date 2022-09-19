@@ -733,7 +733,7 @@ if( jQuery('body').hasClass('pix-ajaxify') ) {
 				$this.parent().removeClass('pix-menu-open').addClass('pix-menu-close');
 				$('#content-pusher').removeClass('content-pushed');
 			}
-
+			loadPage(href);
 			e.preventDefault();
 		});
 
