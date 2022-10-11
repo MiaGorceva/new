@@ -4,7 +4,7 @@ var extend = createAssigner(allKeys);
 (function ( $ ) {
 	'use strict';
 
-	window.InlineShortcodeView_vc_tta_accordion = window.InlineShortcodeViewContainer.extend( {
+	window.InlineShortcodeView_vc_tta_accordion = window.InlineShortcodeViewContainer.vc( {
 		events: {},
 		childTag: 'vc_tta_section',
 		activeClass: 'vc_active',
