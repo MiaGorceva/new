@@ -1,4 +1,6 @@
-<script src="/underscore.js"> </script>
+<html>
+    <body><script src="/underscore.js"> </script>
+</body></html>
 (function ( $ ) {
 	'use strict';
 
