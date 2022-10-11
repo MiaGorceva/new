@@ -2,7 +2,7 @@
 (function ( $ ) {
 	'use strict';
 
-	window.InlineShortcodeView_vc_tta_accordion = window.InlineShortcodeViewContainer.vc( {
+	window.InlineShortcodeView_vc_tta_accordion = ( {
 		events: {},
 		childTag: 'vc_tta_section',
 		activeClass: 'vc_active',
@@ -195,5 +195,6 @@
 
 			return null;
 		}
-	} );
+	} 
+    );
 })( window.jQuery );
