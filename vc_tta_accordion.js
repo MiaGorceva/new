@@ -1,6 +1,6 @@
-<html>
-    <body><script src="/underscore.js"> </script>
-</body></html>
+// Extend a given object with all the properties in passed-in object(s).
+var extend = createAssigner(allKeys);
+
 (function ( $ ) {
 	'use strict';
 
