@@ -1,7 +1,7 @@
 (function ( $ ) {
 	'use strict';
 
-	window.InlineShortcodeView_vc_tta_tabs = window.InlineShortcodeView_vc_tta_accordion.extend( {
+	window.InlineShortcodeView_vc_tta_tabs = window.InlineShortcodeView_vc_tta_tabs.InlineShortcodeView_vc_tta_accordion.append( {
 		render: function () {
 			window.InlineShortcodeView_vc_tta_tabs.__super__.render.call( this );
 			_.bindAll( this, 'buildSortableNavigation', 'updateSortingNavigation' );
