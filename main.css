@@ -4221,7 +4221,6 @@ a.close:after {
 	font-family: "Montserrat", Arial, sans-serif; 
 	font-size: 14px;
 	margin-bottom: 0;
-	text-transform: uppercase;
 }
 
 .main-nav li .menu-icon:before {
@@ -12060,7 +12059,6 @@ button.mfp-close, button.mfp-arrow {
 	cursor: pointer;
 	background: transparent;
 	border: 0;
-	-webkit-appearance: none;
 	display: block;
 	outline: none;
 	padding: 0;
