@@ -3367,8 +3367,6 @@ html.mpc-block-scroll body.mpc-salient-theme .mpc-row-modal { z-index: 101 !impo
 
 .mpc-textblock.mpc-inline { display: inline-block; }
 
-.mpc-textblock h1, .mpc-textblock h2, .mpc-textblock h3, .mpc-textblock h4, .mpc-textblock h5, .mpc-textblock h6, .mpc-textblock a, .mpc-textblock span, .mpc-textblock div { font: inherit; text-align: inherit; color: inherit; }
-
 .mpc-textblock p:first-child { margin-top: 0; }
 
 .mpc-textblock p:last-child { margin-bottom: 0; }
