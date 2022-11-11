@@ -127,8 +127,8 @@ div.amz-container-fluid-no-spaces.vc_row > .wpb_column > .vc_column-inner { /* d
 }
 
 div.vc_row.container {
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .vc_row.amz-remove-margin {
