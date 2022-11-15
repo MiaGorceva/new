@@ -1094,6 +1094,7 @@ pre {
 	padding: 3%;
 	margin: 30px 0;
 	border-radius: 0;
+	width: fit-content;
 }
 
 ul ul, ul ol, ol ul, ol ol {
