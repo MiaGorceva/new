@@ -1094,8 +1094,7 @@ pre {
 	padding: 3%;
 	margin: 30px 0;
 	border-radius: 0;
-	width: fit-content;
-	max-width: 100%;
+	display: block;
 }
 
 ul ul, ul ol, ol ul, ol ol {
