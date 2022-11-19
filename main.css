@@ -1092,10 +1092,12 @@ dd {
 
 pre {
 	padding: 3%;
-	margin: 30px 0;
-	border-radius: 0;
-	display: block;
-	margin-right: 3%;
+	margin: 30px 3% 0 3%;
+    border-radius: 3%;
+    display: block;
+    word-break: break-all;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 ul ul, ul ol, ol ul, ol ol {
