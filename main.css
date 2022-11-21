@@ -1098,6 +1098,7 @@ pre {
     word-break: break-all;
     box-sizing: border-box;
     width: 100%;
+	display: table-cell;
 }
 
 ul ul, ul ol, ol ul, ol ol {
