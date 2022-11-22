@@ -1099,6 +1099,8 @@ pre {
     box-sizing: border-box;
     width: 100%;
 	display: contents;
+	margin-left: 10%;
+	width: fit-content;
 }
 
 ul ul, ul ol, ol ul, ol ol {
