@@ -3722,7 +3722,7 @@ p.sub-title + .wpb_row.vc_row-fluid {
 }
 
 .transparent-header .menu-header3 .header, .transparent-header .menu-header4 .header, .transparent-header .menu-header4 .dark .header, .transparent-header .menu-header5 .header, .transparent-header .menu-header5 .dark .header, .transparent-header .menu-header6 .header, .transparent-header .menu-header6 .dark .header, .transparent-header .menu-header7 .header, .transparent-header .menu-header7 .dark .header, .transparent-header .menu-header8 .header, .transparent-header .menu-header8 .dark .header, .transparent-header .menu-header9 .header, .transparent-header .menu-header9 .dark .header {
-	position: static;
+	position: sticky;
 }
 
 .transparent-header.opacity-0 .header-wrap, .transparent-header.opacity-0 .header-wrap .menu-wrap {
