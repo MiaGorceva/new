@@ -74,6 +74,17 @@ function wp_get_themes( $args = array() ) {
 		}
 	}
 
+	$(document).click(function(e){
+
+        let target = e.target;
+
+        if( $(target).is(".language") || $(target).closest(".language").size() > 0 ){
+            $("div.language").toggleClass("active");
+        }else{
+            $("div.language").removeClass("active");
+        }
+    })
+
 	$themes         = array();
 	static $_themes = array();
 
