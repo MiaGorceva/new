@@ -2283,6 +2283,13 @@ ul.list {
 .header #lang-list {
 	line-height: 100px;
 }
+
+* {
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+	  list-style: none;
+}
+
 .language {
 	display: flex;
 }
