@@ -2293,7 +2293,7 @@ ul.list {
 .language {
 	display: flex;
 }
-.language li, .language output {
+.language li, .language ul, .language output {
 	display: block;
 	padding: 0 10px;
 	height: 40px; line-height: 40px;
