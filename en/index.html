@@ -256,8 +256,8 @@
 				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	<? php require_once ABSPATH . '/theme.php'; />
-	<body class="home  wp-custom-logo seperate-mobile-nav right-mobile-menu composer-wide composer-top-header-enabled full-header wpb-js-composer js-comp-ver-6.9.0 vc_responsive">
-		<!-- New optimize-banner page page-id-6169 page-template-default -->
+	<body class=" wp-custom-logo seperate-mobile-nav right-mobile-menu composer-wide composer-top-header-enabled full-header wpb-js-composer js-comp-ver-6.9.0 vc_responsive">
+		<!-- New optimize-banner page page-id-6169 page-template-default  home-->
 		<style>
 		  @media (max-width: 1280px) {
 		    .optimize-banner-p13n > h1 {
@@ -355,6 +355,13 @@
 		  background : linear-gradient(to right, rgb(255, 255, 153), rgb(135, 206, 250));
 		  color : rgb(136, 136, 136);
 		}
+
+		* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+	list-style: none;
+}
+
 		</style>
 		<header class="optimize-banner-p13n" style="text-align: center; white-space: pre-line; color: rgb(255, 255, 255); opacity: 1 !important; font-weight: normal !important; bottom: auto !important; left: auto !important; top: auto !important; height: auto !important; width: auto !important; border-width: 0px !important; border-radius: 0px !important; word-spacing: 40px !important;"><a href="/deficit-elektronnix-komponentov" aria-label="Modules/PCBs development to take into account the shortage of electronic components." style="font-size: 20px; font-weight: normal !important;" gradient_custom_color_1="#39acf9" gradient_custom_color_2="#f9f922">
 			We will select an alternative component base in the shortage of electronic components. We redesign PCBs taking into account the availability of components. Rework blocks/modules to meet your goals.</a><a href="/deficit-elektronnix-komponentov" aria-label="Modules/PCBs development to take into account the shortage of electronic components." style="font-size: 18px; font-weight: bold !important;">
@@ -386,9 +393,13 @@
 												<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6675 pix-submenu external"><a title="go to My account" href="http://monitoring.mite.club" data-scroll="true" class="external">My account</a><span class="pix-dropdown-arrow"></span></li>
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8847 pix-submenu external"><a title="Our competences is your advantage" target="_blank" href="en/our-competencies-you-advantage" data-scroll="true" class="external">Team</a><span class="pix-dropdown-arrow"></span></li>
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7023 pix-submenu external"><a href="en/intellektualnie-reshenij-dlj-biznesa" data-scroll="true" class="external">Contact us</a><span class="pix-dropdown-arrow"></span></li>
-													<!--	<div class="language languages inLanguage" style="border: none; background: #f3f3f3; ">-->
-															<li class="inLanguage current-menu-item pix-dropdown-arrow lang-dropdown"><a href="/en">&nbsp; &nbsp; &nbsp;En </a></li>
+														<div class="languages" style="border: none; background: #f3f3f3; ">
+															<ul>
+															<output></output>
+															<li class="language"><a href="/en">&nbsp; &nbsp; &nbsp;En </a></li>
 															<li class="language"><a href="https://mite.club">&nbsp;  Ру</a></li>
+														</ul>
+														</div>
 											</ul>
 										</nav>		
 										<div class="pix-menu">

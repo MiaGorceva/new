@@ -671,15 +671,29 @@ function loadGravatars() {
 		
 		loadGravatars();			
 
-		$(document).click(function(e){
+		//for language panel
+		let output = document.querySelector('.language output'),
+		li = document.querySelectorAll('.language li'),
+		ul = document.querySelector('.language ul');
 
-			let target = e.target;
-	
-			if( $(target).is(".language") || $(target).closest(".language").size() > 0 ){
-				$("div.language").toggleClass("active");
-			}else{
-				$("div.language").removeClass("active");
+	output.innerHTML = li[0].innerHTML;
+
+		ul.onmouseover = function(){
+			ul.style.height = (40 * li.length) + 40 + 'px';
+			if(li.length >= 10){
+				ul.setAttribute('style', 'height: 200px; overflow: auto;');
 			}
+		}
+		ul.onmouseout = function(){
+			ul.removeAttribute('style');
+		}
+
+		li.forEach(function(e){
+			let text = e.innerHTML;
+			e.addEventListener('click', function(){
+				output.innerHTML = text;
+			})
+			
 		})
 
 		/* WPML Language Menu */

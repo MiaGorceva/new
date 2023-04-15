@@ -2283,6 +2283,29 @@ ul.list {
 .header #lang-list {
 	line-height: 100px;
 }
+.language {
+	display: flex;
+}
+.language li, .language output {
+	display: block;
+	padding: 0 10px;
+	height: 40px; line-height: 40px;
+	border: 1px solid #000;
+}
+.language input {
+	height: 40px;
+	background: none;
+	padding: 0 10px;
+	border: 0; outline: 0;
+	border: 1px solid #000;
+}
+.language ul {
+	margin-left: 10px;
+	height: 40px;
+  transition: 375ms;
+  cursor: default;
+	overflow: hidden;
+}
 
 .header .main-nav #lang-list {
 	line-height: 62px;
