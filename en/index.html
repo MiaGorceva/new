@@ -406,6 +406,33 @@
 											  <button class="language-picker__button" aria-label="English, Select your language" aria-expanded="false" aria-controls="language-picker-dropdown">
 												<span aria-hidden="true" class="language-picker__flag language-picker__flag--english"></span>
 											  </button>
+											  <style>
+												.js .language-picker__form{
+	display: none;
+}
+
+.language-picker__dropdown {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 200px;
+	background-color: var(--color-bg);
+	box-shadow: var(--shadow-sm);
+	padding: var(--space-xxs) 0;
+	border-radius: 0.25em;
+	z-index: var(--zindex-popover);
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: .2s ease-out;
+  }
+  
+  .language-picker__button[aria-expanded="true"] + .language-picker__dropdown { 
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(4px);
+  }
+											  </style>
 									  </div>
 										</nav>		
 										<div class="pix-menu">
