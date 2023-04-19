@@ -2319,6 +2319,31 @@ ul.list {
 	line-height: 62px;
 }
 
+.js .language-picker__form{
+	display: none;
+}
+
+.language-picker__dropdown {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 200px;
+	background-color: var(--color-bg);
+	box-shadow: var(--shadow-sm);
+	padding: var(--space-xxs) 0;
+	border-radius: 0.25em;
+	z-index: var(--zindex-popover);
+	
+	visibility: hidden;
+	opacity: 0;
+	transition: .2s ease-out;
+  }
+  
+  .language-picker__button[aria-expanded="true"] + .language-picker__dropdown { 
+	visibility: visible;
+	opacity: 1;
+	transform: translateY(4px);
+  }
 
 /* Lang in default header */
 .default-header-lang {
