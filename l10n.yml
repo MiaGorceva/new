@@ -1,6 +1,0 @@
-site-root/_data$ cat en/l10n.yml
-lang_name: "English"
-title: "Mite - Full-cycle electronics contract developmen "
-site-root/_data$ cat uk/l10n.yml
-lang_name: "Ukraine"
-title: "Full-cycle electronics contract development"

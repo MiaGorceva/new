@@ -2313,10 +2313,12 @@ ul.list {
   cursor: default;
 	overflow: hidden;
 }
+		
 
 .header .main-nav #lang-list {
 	line-height: 62px;
 }
+
 
 /* Lang in default header */
 .default-header-lang {
