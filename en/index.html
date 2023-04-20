@@ -433,7 +433,8 @@
 											  <button class="language-picker__button" aria-label="English, Select your language" aria-expanded="false" aria-controls="language-picker-dropdown">
 												<span aria-hidden="false" class="language-picker__flag language-picker__flag--english"></span>
 											  </button>
-											  <script> moveFocusToTrigger(picker) {
+											  <script> moveFocusToTrigger(picker) 
+											  {
 												if(picker.trigger.getAttribute('aria-expanded') == 'false') return;
 												if(document.activeElement.closest('.language-picker__dropdown') == picker.dropdown) picker.trigger.focus();
 											  };</script>
