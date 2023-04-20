@@ -390,7 +390,7 @@
 											</ul>
 											<style>
 												.js .language-picker__form{
-															display:inline;
+															display:none;
 														}
 
 														.language-picker__dropdown {
@@ -420,7 +420,7 @@
 											  
 												<ul class="language-picker__list" role="listbox">
 												  <li>
-													<a lang="de" hreflang="ru" href="mite.club" role="option" data-value="russian" class="language-picker__item language-picker__flag language-picker__flag--russian">Russian</a>
+													<a lang="de" hreflang="ru" href="https://mite.club" role="option" data-value="russian" class="language-picker__item language-picker__flag language-picker__flag--russian">Russian</a>
 												  </li>
 											  
 												  <li>
@@ -431,8 +431,12 @@
 												</ul>
 											  </div>
 											  <button class="language-picker__button" aria-label="English, Select your language" aria-expanded="false" aria-controls="language-picker-dropdown">
-												<span aria-hidden="true" class="language-picker__flag language-picker__flag--english"></span>
+												<span aria-hidden="false" class="language-picker__flag language-picker__flag--english"></span>
 											  </button>
+											  <script> moveFocusToTrigger(picker) {
+												if(picker.trigger.getAttribute('aria-expanded') == 'false') return;
+												if(document.activeElement.closest('.language-picker__dropdown') == picker.dropdown) picker.trigger.focus();
+											  };</script>
 									  </div>
 										</nav>		
 										<div class="pix-menu">

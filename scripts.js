@@ -768,10 +768,7 @@ window.addEventListener('keyup', function(event){
 	  });
 	} 
   });
-  function moveFocusToTrigger(picker) {
-	if(picker.trigger.getAttribute('aria-expanded') == 'false') return;
-	if(document.activeElement.closest('.language-picker__dropdown') == picker.dropdown) picker.trigger.focus();
-  };
+
 
 		/* WPML Language Menu */
 		var $langBtn = $('#lang-list.lang-dropdown.translated');
