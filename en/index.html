@@ -388,6 +388,33 @@
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8847 pix-submenu external"><a title="Our competences is your advantage" target="_blank" href="en/our-competencies-you-advantage" data-scroll="true" class="external">Team</a><span class="pix-dropdown-arrow"></span></li>
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7023 pix-submenu external"><a href="en/intellektualnie-reshenij-dlj-biznesa" data-scroll="true" class="external">Contact us</a><span class="pix-dropdown-arrow"></span></li>
 											</ul>
+											<style>
+												.js .language-picker__form{
+															display: none;
+														}
+
+														.language-picker__dropdown {
+															position: absolute;
+															left: 0;
+															top: 100%;
+															width: 200px;
+															background-color: var(--color-bg);
+															box-shadow: var(--shadow-sm);
+															padding: var(--space-xxs) 0;
+															border-radius: 0.25em;
+															z-index: var(--zindex-popover);
+															
+															visibility: hidden;
+															opacity: 0;
+															transition: .2s ease-out;
+														}
+														
+														.language-picker__button[aria-expanded="true"] + .language-picker__dropdown { 
+															visibility: visible;
+															opacity: 1;
+															transform: translateY(4px);
+														}
+											  </style>
 											<div class="language-picker__dropdown" aria-describedby="language-picker-description" id="language-picker-dropdown">
 												<p class="sr-only" id="language-picker-description"><strong>En</strong></p>
 											  
@@ -406,33 +433,6 @@
 											  <button class="language-picker__button" aria-label="English, Select your language" aria-expanded="false" aria-controls="language-picker-dropdown">
 												<span aria-hidden="true" class="language-picker__flag language-picker__flag--english"></span>
 											  </button>
-											  <style>
-												.js .language-picker__form{
-	display: none;
-}
-
-.language-picker__dropdown {
-	position: absolute;
-	left: 0;
-	top: 100%;
-	width: 200px;
-	background-color: var(--color-bg);
-	box-shadow: var(--shadow-sm);
-	padding: var(--space-xxs) 0;
-	border-radius: 0.25em;
-	z-index: var(--zindex-popover);
-	
-	visibility: hidden;
-	opacity: 0;
-	transition: .2s ease-out;
-  }
-  
-  .language-picker__button[aria-expanded="true"] + .language-picker__dropdown { 
-	visibility: visible;
-	opacity: 1;
-	transform: translateY(4px);
-  }
-											  </style>
 									  </div>
 										</nav>		
 										<div class="pix-menu">
