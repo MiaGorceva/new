@@ -241,8 +241,8 @@
 				<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=762586141088890&ev=PageView&noscript=1"/></noscript>
 				<!-- End Facebook Pixel Code -->
 			<!--	<style>body.home>header:nth-of-type(2){display: none}</style><style>body.home>header:nth-of-type(1){line-height: 35px !important}</style><style>/** Ultimate: Media Responsive **/ #ubtn-1992{font-size:16px;}#ubtn-6080{font-size:16px;}@media (max-width: 1199px) { }@media (max-width: 991px)  { }@media (max-width: 767px)  { }@media (max-width: 479px)  { }/** Ultimate: Media Responsive - **/</style><style>-->
-			<!--	/** Ultimate: CountDown Responsive **/ #ubtn-1992{font-size:16px;}#ubtn-6080{font-size:16px;}-->
-				/** Ultimate: Tooltipster Responsive - **/</style>
+			<!--	/** Ultimate: CountDown Responsive **/ #ubtn-1992{font-size:16px;}#ubtn-6080{font-size:16px;}
+				/** Ultimate: Tooltipster Responsive - **/</style>-->
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 				<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
@@ -390,11 +390,11 @@
 												.dropdown_lang {
 													display: inline-block;
 													position: inherit;
-													line-height: 50px;
+													line-height: 40px;
 													}
 												.dropdown-langs {
 													display: none;
-													position:sticky;
+													position:absolute;
 													overflow: auto;
 													line-height: 30px;
 													}
@@ -415,7 +415,7 @@
 
 												let target = e.target;
 										
-												if( $(target).is(".dropdown_lang") || $(target).closest(".dropdown_lang").size() > 0 ){
+												if( $(target).is(".dropdown_langs") || $(target).closest(".dropdown_lang").size() > 0 ){
 													$("div.dropdown_lang").toggleClass("active");
 												}else{
 													$("div.dropdown_lang").removeClass("active");
