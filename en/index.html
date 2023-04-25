@@ -349,6 +349,56 @@
 		
 
 		</style> 
+
+<script>    $(document).click(function(e){
+
+	let target = e.target;
+
+	if( $(target).is(".dropdown_lang") || $(target).closest(".dropdown_lang").size() > 0 ){
+		$("div.dropdown_lang").toggleClass("active");
+	}else{
+		$("div.dropdown_lang").removeClass("active");
+	}
+})
+</script>
+<div class="dropdown_lang" style="margin-left: 100px;    position: relative;z-index: 1; font-size: 14px; color: #596062">
+	<button style="border:none">En</button>
+	<div class="dropdown-langs" style="float: inherit;position: relative;">
+	  <li><a href="" class="current"><strong>En</strong></a></li>
+	  <li><a href="https://mite.club">Ru</a></li>
+	</div>
+  </div>
+  <style>
+	.dropdown_lang {
+		display: inline-block;
+		position: inherit;
+		line-height: 40px;
+		padding: 0 15px 0 0;
+			background: url(../uploads/more.svg) no-repeat right 50%;
+		}
+	.dropdown-langs {
+		display: none;
+		position:absolute;
+		padding: 0 15px 0 0;
+		overflow: auto;
+		line-height: 30px;
+		}
+
+		.dropdown_lang:hover .dropdown-langs {
+		display: block;
+		}
+
+		.dropdown_lang strong{
+			font-weight: 600;
+		}
+		
+
+		.dropdown_langs:active .dropdown_langs:focus .dropdown_langs:hover .dropdown-langs:onclick .dropdown-lang:focus .dropdown_langs:active{
+			color:pink;
+					background: url(../uploads/less.svg) no-repeat right 20%!important;
+		}
+				
+  </style>
 		<header class="optimize-banner-p13n_e" style="text-align: center; white-space: pre-line; color: rgb(255, 255, 255); opacity: 1 !important; font-weight: normal !important; bottom: auto !important; left: auto !important; top: auto !important; height: auto !important; width: auto !important; border-width: 0px !important; border-radius: 0px !important; word-spacing: 40px !important;"><a href="/deficit-elektronnix-komponentov" aria-label="Modules/PCBs development to take into account the shortage of electronic components." style="font-size: 20px; font-weight: normal !important;" gradient_custom_color_1="#39acf9" gradient_custom_color_2="#f9f922">
 			We will select an alternative component base in the shortage of electronic components. We redesign PCBs taking into account the availability of components. Rework blocks/modules to meet your goals.</a><a href="/deficit-elektronnix-komponentov" aria-label="Modules/PCBs development to take into account the shortage of electronic components." style="font-size: 18px; font-weight: bold !important;">&nbsp; Learn more....</a>
 		</header>	
@@ -379,55 +429,6 @@
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8847 pix-submenu external"><a title="Our competences is your advantage" target="_blank" href="en/our-competencies-you-advantage" data-scroll="true" class="external">Team</a><span class="pix-dropdown-arrow"></span></li>
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7023 pix-submenu external"><a href="en/intellektualnie-reshenij-dlj-biznesa" data-scroll="true" class="external">Contact us</a><span class="pix-dropdown-arrow"></span></li>
 											</ul>
-											<script>    $(document).click(function(e){
-
-												let target = e.target;
-										
-												if( $(target).is(".dropdown_lang") || $(target).closest(".dropdown_lang").size() > 0 ){
-													$("div.dropdown_lang").toggleClass("active");
-												}else{
-													$("div.dropdown_lang").removeClass("active");
-												}
-											})
-											</script>
-											<div class="dropdown_lang" style="margin-left: 100px;    position: relative;z-index: 1; font-size: 14px; color: #596062">
-												<button style="border:none">En</button>
-												<div class="dropdown-langs" style="float: inherit;position: relative;">
-												  <li><a href="" class="current"><strong>En</strong></a></li>
-												  <li><a href="https://mite.club">Ru</a></li>
-												</div>
-											  </div>
-											  <style>
-												.dropdown_lang {
-													display: inline-block;
-													position: inherit;
-													line-height: 40px;
-													padding: 0 15px 0 0;
-														background: url(../uploads/more.svg) no-repeat right 50%;
-													}
-												.dropdown-langs {
-													display: none;
-													position:absolute;
-													padding: 0 15px 0 0;
-													overflow: auto;
-													line-height: 30px;
-													}
-
-													.dropdown_lang:hover .dropdown-langs {
-													display: block;
-													}
-
-													.dropdown_lang strong{
-														font-weight: 600;
-													}
-													
-
-													.dropdown_langs:active .dropdown_langs:focus .dropdown_langs:hover .dropdown-langs:onclick .dropdown-lang:onclick .dropdown_langs:active{
-														color:pink;
-																background: url(../uploads/less.svg) no-repeat right 20%!important;
-													}
-															
-											  </style>
 									  </div>
 										</nav>		
 										<div class="pix-menu">
