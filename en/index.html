@@ -433,16 +433,9 @@
 												  <li><a href="https://mite.club">Ru</a></li>
 												</div>
 											</div>
-											<script> $(document).click(function(e){
-
-												let target = e.target;
-										
-												if( $(target).is(".dropdown-langs") || $(target).closest(".dropdown-langs").size() > 0 ){
-													$("div.dropdown-langs").toggleClass("active");
-												}else{
-													$("div.dropdown-langs").removeClass("active");
-												}
-											})</script>
+											<script>$("#dropdown_lang").bind('click', function () {
+												$(this).css('background', 'none');
+											});</script>
 									</div>
 										</nav>		
 										<div class="pix-menu">
