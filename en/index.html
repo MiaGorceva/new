@@ -378,15 +378,15 @@
 		display: block;
 		line-height: 40px;
 		padding: 0 15px 0 0;
-		background-image: none;
-		
+		background: url(../uploads/less.svg) no-repeat right 50%;
 		}
 
-		.dropdown_lang strong{
+		.dropdown_lang.selected{
 			font-weight: 600;
 		}
 
-		.dropdown_lang:ondrag .dropdown-langs:ondrag{
+		.dropdown_lang:focus{
+			outline:none;
 			background: url(../uploads/less.svg) no-repeat right 50%;
 		}
 		
@@ -427,7 +427,7 @@
 											<div class="dropdown_lang" style="margin-left: 100px;    position: relative;z-index: 1; font-size: 14px; color: #596062">
 												<button class = "drop_l" style="border:none">En</button>
 												<div class="dropdown-langs" style="float: inherit;position: relative;" ondrag="$(this).css('background', 'url(../uploads/less.svg) no-repeat right 50%')">
-												  <li><a href="" class="current"><strong>En</strong></a></li>
+												  <li><a href="" selected><strong>En</strong></a></li>
 												  <li><a href="https://mite.club">Ru</a></li>
 												</div>
 											</div>
