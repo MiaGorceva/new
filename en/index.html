@@ -361,7 +361,6 @@
 		padding: 0 15px 0 0;
 		background-image: none;
 			background: url(../uploads/more.svg) no-repeat right 50%;
-			background: url(../uploads/less.svg) no-repeat right 50%;
 			cursor: pointer;
 		}
 
@@ -434,6 +433,16 @@
 												  <li><a href="https://mite.club">Ru</a></li>
 												</div>
 											</div>
+											<script> $(document).click(function(e){
+
+												let target = e.target;
+										
+												if( $(target).is(".dropdown-langs") || $(target).closest(".dropdown-langs").size() > 0 ){
+													$("div.dropdown-langs").toggleClass("active");
+												}else{
+													$("div.dropdown-langs").removeClass("active");
+												}
+											})</script>
 									</div>
 										</nav>		
 										<div class="pix-menu">
