@@ -360,9 +360,9 @@
 		position: inherit;
 		line-height: 40px;
 		padding: 0 15px 0 0;
-		background-image: none;
-			background: url(../uploads/more.svg) no-repeat right 50%;
-			cursor: pointer;
+		background-image: block;
+		background: url(../uploads/more.svg) no-repeat right 50%;
+		cursor: pointer;
 		}
 
 	.dropdown-langs {
@@ -373,12 +373,15 @@
 		line-height: 30px;
 		}
 
+		.dropdown_lang:hover{
+			display: none;
+		}
+
 	.dropdown_lang:hover .dropdown-langs {
 		display: block;
 		line-height: 40px;
 		padding: 0 15px 0 0;
-		background: none;
-		background: url(../uploads/less.svg) no-repeat right 50%;
+		background-image: none;
 		background: url(../uploads/less.svg) no-repeat right 20%;
 		}
 
