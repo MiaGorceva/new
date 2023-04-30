@@ -404,6 +404,12 @@
           display: block;
 		}
 	}
+	li.selected::after{
+        background: url(../imgs/icons/less.svg) no-repeat right 50%;
+	}
+	.dropdown-langs.active::content{
+		background: none;
+	}
 
 
 				
@@ -442,7 +448,7 @@
 											<div class="dropdown_lang" style="margin-left: 100px;    position: relative;z-index: 1; font-size: 14px; color: #596062">
 												<button class = "drop_l" style="border:none">En</button>
 												<div class="dropdown-langs" style="float: inherit;position: relative;" ondrag="$(this).css('background', 'url(../uploads/less.svg) no-repeat right 50%')">
-												  <li><a href="" selected active><strong>En</strong></a></li>
+												  <li selected active><a href=""><strong>En</strong></a></li>
 												  <li><a href="https://mite.club">Ru</a></li>
 												</div>
 											</div>
