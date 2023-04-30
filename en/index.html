@@ -389,34 +389,9 @@
 				background: url(../uploads/less.svg) no-repeat right 50%;
 		}
 
-		div.dropdown-lang{
-      @media screen.noselect;
-      @media (min-width: 950px) {
-        float: right;
-        position: relative;
-      }
-      cursor: pointer;
-        padding: 0 20px 0 0;
-	}
-	li.selected.active{
-        background: url(../imgs/icons/less.svg) no-repeat right 50%;
-        @media (min-width: 950px) {
-          display: block;
-		}
-	}
-	li.selected::after{
-        background: url(../imgs/icons/less.svg) no-repeat right 50%;
-	}
-	.dropdown-langs.active:content{
-		background: green;
-	}
 
-	.dropdown-lang.active:content{
-		background: yellow;
-	}
-
-	.dropdown-lang:-ms-ticks-before{
-		background: blue;
+	.dropdown-lang::after{
+        background: url(../imgs/icons/less.svg) no-repeat right 50%;
 	}
 
 	.dropdown-lang:before{
