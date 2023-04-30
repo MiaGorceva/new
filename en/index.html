@@ -385,10 +385,29 @@
 
 		}
 
-		.dropdown-langs:hover {
-			background: none;
-			background: url(../uploads/less.svg) no-repeat right 50%;
+		.dropdown-langs.active{
+				
+
+
+				background: url(../uploads/less.svg) no-repeat right 50%;
 		}
+
+		div.language{
+      @media screen.noselect;
+      @media (min-width: 950px) {
+        float: right;
+        position: relative;
+      }
+      cursor: pointer;
+        padding: 0 20px 0 0;
+        background: url(../imgs/icons/less.svg) no-repeat right 50%;
+        font-weight: 600;
+        color: #596062;
+        @media (min-width: 950px) {
+          display: block;
+        }
+	}
+
 
 				
   </style>
