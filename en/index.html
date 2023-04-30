@@ -408,7 +408,19 @@
         background: url(../imgs/icons/less.svg) no-repeat right 50%;
 	}
 	.dropdown-langs.active::content{
-		background: none;
+		background: green;
+	}
+
+	.dropdown-lang.active::content{
+		background: yellow;
+	}
+
+	.dropdown-lang::-ms-ticks-before{
+		background: blue;
+	}
+
+	.dropdown-lang::before{
+		background: pink;
 	}
 
 
