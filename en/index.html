@@ -364,15 +364,15 @@
 		background: url(../uploads/more.svg) no-repeat right 50%;
 		cursor: pointer;
 	}
-	.dropdown_lang:hover{
+	/*.dropdown_lang:hover{
 		background: none;
 		line-height: 40px;
-	/*	display: block;
+		display: block;
 		padding: 0 15px 0 0;
 	}
-				:after{*/
+				:after{
 		background: url(../uploads/less.svg) no-repeat right 50%;
-		}
+		}*/
 
 
 	.dropdown-langs {
@@ -384,11 +384,13 @@
 		}
 
 
-	/*.dropdown_lang:hover .dropdown-langs {
+	.dropdown_lang:hover .dropdown-langs {
+		background: none;
 		display: block;
 		line-height: 40px;
 		padding: 0 15px 0 0;
-		}*/
+		background: url(../uploads/less.svg) no-repeat right 50%;
+		}
 
 		.dropdown_lang.selected{
 			font-weight: 600;
