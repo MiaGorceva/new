@@ -672,7 +672,7 @@ function loadGravatars() {
 		loadGravatars();			
 
 		//for language panel
-		let output = document.querySelector('.language output'),
+		/*let output = document.querySelector('.language output'),
 		li = document.querySelectorAll('.language li'),
 		ul = document.querySelector('.language ul');
 
@@ -694,7 +694,7 @@ function loadGravatars() {
 				output.innerHTML = text;
 			})
 			
-		})
+		})*/
 
 		/* WPML Language Menu */
 		var $langBtn = $('#lang-list.lang-dropdown.translated');
