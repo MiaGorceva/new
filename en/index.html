@@ -364,27 +364,9 @@
 		background: url(../uploads/more.svg) no-repeat right 50%;
 		cursor: pointer;
 	}
-	/*.dropdown_lang:hover{
-		background: none;
-		line-height: 40px;
-		display: block;
-		padding: 0 15px 0 0;
-	}
-				:after{
-		background: url(../uploads/less.svg) no-repeat right 50%;
-		}
 
 
-	.dropdown-langs {
-		display: none;
-		position:absolute;
-		padding: 0 15px 0 0;
-		overflow: auto;
-		line-height: 30px;
-		}*/
-
-
-	.dropdown_lang:hover .dropdown-langs{
+	/*.dropdown_lang:hover .dropdown-langs{
 		display: block;
 		overflow: auto;
 		line-height: 40px;
@@ -399,7 +381,7 @@
 			padding: 0 15px 0 0;
 			position:absolute;
 			overflow: auto;
-		}
+		}*/
 
 		.dropdown_lang :-ms-lang(){
 			display: visible;
@@ -445,12 +427,18 @@
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8847 pix-submenu external"><a title="Our competences is your advantage" target="_blank" href="en/our-competencies-you-advantage" data-scroll="true" class="external">Team</a><span class="pix-dropdown-arrow"></span></li>
 												<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7023 pix-submenu external"><a href="en/intellektualnie-reshenij-dlj-biznesa" data-scroll="true" class="external">Contact us</a><span class="pix-dropdown-arrow"></span></li>
 											</ul>
-											<div class="dropdown_lang" type="radio" style="margin-left: 100px;    position: relative;z-index: 1; font-size: 14px; color: #596062" ONMOUSEOVER="$(this).css('background', 'url(../uploads/less.svg) no-repeat right 50%')" onmouseleave="$(this).css('background', 'url(../uploads/more.svg) no-repeat right 50%')" backdrop>
+											<div class="dropdown_lang" style="margin-left: 100px;    position: relative;z-index: 1; font-size: 14px; color: #596062" ONMOUSEOVER="$(this).css('background', 'url(../uploads/less.svg) no-repeat right 50%')" onmouseleave="$(this).css('background', 'url(../uploads/more.svg) no-repeat right 50%')">
 												<button class="drop_l">En</button>
 												<div class="dropdown-langs" style="float: inherit;position: relative;">
 												  <li selected active><a href=""><strong>En</strong></a></li>
 												  <li><a href="https://mite.club">Ru</a></li>
 												</div>
+											</div>
+											<div class="language" style="margin-left: 100px;    position: relative;z-index: 1; font-size: 14px; color: #596062" >
+												<ul class="language" style="float: inherit;position: relative;">
+												  <li class="language"selected active><a href=""><strong>En</strong></a></li>
+												  <li class="language"><a href="https://mite.club">Ru</a></li>
+												</ul>
 											</div>
 										</nav>	
 									</div>	
