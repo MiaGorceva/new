@@ -676,7 +676,7 @@ function loadGravatars() {
 		li = document.querySelectorAll('.language li'),
 		ul = document.querySelector('.language ul');
 
-	output.innerHTML = li[0].innerHTML;
+	    output.innerHTML = li[0].innerHTMLi;
 
 		ul.onmouseover = function(){
 			ul.style.height = (40 * li.length) + 40 + 'px';
