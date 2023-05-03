@@ -1327,6 +1327,11 @@ ul.list {
 	opacity: 0;
 }
 
+.mobile-menu-inner.hide-on-mobile {
+	display: none !important;
+	opacity: 0;
+}
+
 .dot {
 	background: #00a9d1;
 	width: 5px;
