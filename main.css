@@ -1322,10 +1322,6 @@ ul.list {
 	vertical-align: middle;
 }
 
-.button{
-	padding: 15px 45px 15px 45px;
-}
-
 #back-top.hide-on-mobile {
 	display: none !important;
 	opacity: 0;
