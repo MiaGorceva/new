@@ -1322,6 +1322,10 @@ ul.list {
 	vertical-align: middle;
 }
 
+.ubtn{
+	padding: 15px 45px 15px 45px;
+}
+
 #back-top.hide-on-mobile {
 	display: none !important;
 	opacity: 0;
