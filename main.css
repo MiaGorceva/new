@@ -2346,6 +2346,10 @@ ul.list {
 	margin-left: 0px;
 }
 
+.drop_l{
+	border:none;
+}
+
 .default-header-lang #lang-list.lang-dropdown {
 	position: relative;
 	float: right;
