@@ -2450,12 +2450,12 @@ header.optimize-banner-p13n_e {
 }
 
 .dropdown_lang {
-display: inline-block;
-position: inherit;
-line-height: 40px;
-padding: 0 15px 0 0;
-background: url(../uploads/more.svg) no-repeat right 50%;
-cursor: pointer;
+	display: inline-block;
+	position: inherit;
+	line-height: 40px;
+	padding: 0 15px 0 0;
+	background: url(../uploads/more.svg) no-repeat right 50%;
+	cursor: pointer;
 }
 
 
