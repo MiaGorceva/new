@@ -2449,51 +2449,6 @@ header.optimize-banner-p13n_e {
   align-content: left;
 }
 
-
-.dropdown_lang:hover .dropdown-langs{
-display: block;
-overflow: auto;
-line-height: 40px;
-display: visible;
-padding: 0 15px 0 0;
-}
-
-
-.dropdown-langs{
-  display: none;
-  /*line-height: 40px;
-  padding: 0 15px 0 0;
-  position:absolute;
-  overflow: auto;
-  
-  .dropdown_lang :-ms-lang(){
-  display: visible;
-}*/
-}
-
-.dropdown_lang.selected{
-  font-weight: 600;
-
-}
-
-.drop_l{
-	border:none;
-}
-
-.default-header-lang #lang-list.lang-dropdown {
-	position: relative;
-	float: right;
-	padding-left: 10px;
-	padding-right: 20px;
-	line-height: 39px;
-	background: #f6f6f6;
-	height: 40px;
-	border-radius: 3px;
-	box-shadow: inset 0 0 2px #E0E0E0;
-	margin-top: 33px;
-	margin-left: 10px;
-}
-
 .menu-wrap .woo-cart-dropdown {
 	top: 48px;
 }
