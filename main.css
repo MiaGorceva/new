@@ -2449,15 +2449,6 @@ header.optimize-banner-p13n_e {
   align-content: left;
 }
 
-.dropdown_lang {
-	display: inline-block;
-	position: inherit;
-	line-height: 40px;
-	padding: 0 15px 0 0;
-	background: url(../uploads/more.svg) no-repeat right 50%;
-	cursor: pointer;
-}
-
 
 .dropdown_lang:hover .dropdown-langs{
 display: block;
