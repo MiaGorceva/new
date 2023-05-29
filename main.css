@@ -2405,45 +2405,6 @@ body.home>header>p {
   text-align : center !important;
 }
 
-
-
-header.optimize-banner-p13n_e {
-  font-family : Montserrat!important;
-  line-height : 40px!important;
-  word-spacing : 45px !important;
-  margin-top: -1%;
-}
-
-@media (min-width: 1200px) {
-  header.optimize-banner-p13n_e>p {
-	width : auto;
-	height : auto;
-  }
-}
-@media (max-width: 1199px) {
-  header.optimize-banner-p13n_e>p {
-	width : auto;
-	height : auto;
-  }
-}
-@media (min-width: 992px) {
-  header.optimize-banner-p13n_e {
-	width : auto;
-	height : auto;
-  }
-}
-header.optimize-banner-p13n_e>p {
-  height : auto;
-  width : auto;
-}
-
-header.optimize-banner-p13n_e {
-  width : auto;
-  height : auto;
-  background : linear-gradient(to right, rgb(255, 255, 153), rgb(135, 206, 250));
-  color : rgb(136, 136, 136);
-}
-
 .mobile-menu-nav {
   height: fit-content!important;
   align-content: left;
