@@ -29,7 +29,7 @@ header.optimize-banner-p13n_e {
   width : auto;
   height : auto;
    line-height : 35px;
-  font-size : 20px;
+  font-size : 24px;
   background : linear-gradient(to right, rgb(255, 255, 153), rgb(135, 206, 250));
   color : rgb(88, 165, 64)!important;
   word-spacing : 30px !important;
@@ -134,14 +134,15 @@ border:none;
                     
                      .vc_custom_1652197944594{margin-bottom: 3% !important;}.vc_custom_1652351634571{margin-top: 5% !important;margin-bottom: 5% !important;}.vc_custom_1658468693104{padding-left: 4% !important;padding-right: 4%; padding-top: 5% !important;}
                      .vc_custom_1649049100324{margin-left: 5% !important;padding-top: 5% !important;}.vc_custom_1655110477196{padding-top: 5% !important;}.vc_custom_1654513904772{padding-left: 3% !important;}.vc_custom_1650278555783{margin-top: 5% !important;}
-                     .vc_custom_1650310328795{margin-bottom: 5% !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }https://crush.hashnode.dev/lsfusion-open-source-rapid-application-development-platform
+                     .vc_custom_1650310328795{margin-bottom: 5% !important;}
+                     .wpb_animate_when_almost_visible { opacity: 1; };
 
 					/* .grecaptcha-badge {visibility: none;}
 					Custom html widget */
 					
 					#pageFooter .widget .custom-html-widget{
 						position: bottom;
-						margin-left:3.8%;
+						margin-left: 3.8%;
 						color:#000000;
 						font-size:15px;
 						font-weight:600;
