@@ -120,3 +120,85 @@ border:none;
 					{padding-right: 60px !important;}.vc_custom_1644736908835{padding-left: 2% !important;}.vc_custom_1650908889505{margin-top: 7% !important;}.vc_custom_1594976650803{padding-top: -1% !important;}.vc_custom_1640776943178{margin-top: 7% !important;}.vc_custom_1656580224980
 					{margin-top: 7% !important;}.vc_custom_1656580316407{margin-top: 7% !important;}.vc_custom_1656580131123{margin-top: 7% !important;}.vc_custom_1652430169484{margin-top: 7% !important;}.vc_custom_1656580353033{margin-top: 7% !important;}.vc_custom_1656580073213
 					{margin-top: 7% !important;}.vc_custom_1656580289633{margin-top: 7% !important;}.vc_custom_1656580458391{margin-top: 7% !important;}.vc_custom_1652429878469{margin-top: -10px !important;} .wpb_animate_when_almost_visible { opacity: 1; }
+
+
+
+					/* .grecaptcha-badge {visibility: none;}
+					Custom html widget */
+					
+					#pageFooter .widget .custom-html-widget{
+						position: bottom;
+						margin-left:3.8%;
+						color:#000000;
+						font-size:15px;
+						font-weight:600;
+					}
+					.deficit{
+						font-size:48px!important;
+					}
+					.sale_top{
+						font-size:15px;
+						font-weight:800;
+						color:#58a540!important;
+						padding-right:2%;
+						/*background:#bcbcbc;*/
+					}
+					.for_links{
+						color: #58a540!important;
+						text-decoration-color: black;	
+					}
+					.green_menu.a:visited{
+						color: #000000!important;
+					}
+					.green_menu.a:hover{
+						color: #54a580;
+					}
+					.green_menu.a:focus{
+						color: #58a540!important;
+					}
+					.green_menu.a:active{
+						color: #58a540!important;
+					}
+					.for_links:hover{
+						color: #58a540!important;
+					}
+					.for_links:focus{
+						color: #58a540!important;
+					}
+					h4{
+						font-weight: 400!important;
+					}
+					.ubtn{
+						padding: 15px 45px 15px 45px;
+						line-height:1.4em;
+						max-width:100%;
+						font-weight:normal;
+						font-size:16px; 
+						border-radius:30px;
+						border-width:0px;
+						border-style:inset;
+						background: #54a54c;
+						color: #ffffff;
+					}
+				
+                    a {
+                        color: #008000; /* Цвет обычной ссылки */ 
+                        text-decoration: none; /* Убираем подчеркивание у ссылок */
+                    }
+				   a:visited {
+				        color: #58a540; /* Цвет посещённой ссылки */
+				   } 
+				   a:hover {
+                        color: #58a540; /* Цвет ссылки при наведении на нее курсора мыши */  
+                        text-decoration: none; /* Добавляем подчеркивание */
+				   }
+				  .deficit{
+				       font-size:34px!important;
+				   }
+				   .laser_others{
+				       font-size:28px!important;
+				   }
+				   .contract_dev{
+				       background-color:  #54a54c!important;
+
+				   }	
